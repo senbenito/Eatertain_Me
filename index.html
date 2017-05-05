@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta>
+    <title>Final Project: API by Shannon</title>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+<h1>Welcome to Shannon's Dinner Finder</h1>
+<h2>Give me something to start with:</h2>
+<input type='text' id='keyword' placeholder="enter a keyword here"></input>
+
+<h2>Then, please select a cuisine below:<br>
+<span style='font-size:small'>Hold CTRL / Command for multiple cuisines</span></h2>
+<select multiple='multiple' id='cuisine' name="cuisine">
+        <!-- <option value='african'>African</option> -->
+        <option value='chinese'>Chinese</option>
+        <option value='japanese'>Japanese</option>
+        <!-- <option value='korean'>Korean</option> -->
+        <!-- <option value='vietnamese'>Vietnamese</option> -->
+        <option value='thai'>Thai</option>
+        <option value='indian'>Indian</option>
+        <!-- <option value='middle+eastern'>Middle Eastern</option> -->
+        <option value='british'>British</option>
+        <!-- <option value='irish'>Irish</option> -->
+        <option value='french'>French</option>
+        <option value='italian'>Italian</option>
+        <option value='mexican'>Mexican</option>
+        <option value='spanish'>Spanish</option>
+        <!-- <option value='jewish'>Jewish</option> -->
+        <option value='american'>American</option>
+        <option value='cajun'>Cajun</option>
+        <option value='southern'>Southern</option>
+        <option value='greek'>Greek</option>
+        <option value='german'>German</option>
+        <!-- <option value='nordic'>Nordic</option> -->
+        <!-- <option value='eastern+european'>Eastern European</option> -->
+        <option value='caribbean'>Caribbean</option>
+        <option value='latin+american'>Latin American</option>
+
+
+      </select>
+<!-- , , , , , , , , , , , , , , , , , , , , or  -->
+<p><button id='searchButton'>Click to find out what's for dinner!</button></p>
+
+
+<div id='results'>
+<h2>Here's what we found:</h2>
+
+</div>
+    </main>
+
+  </body>
+    <script src="main.js"></script>
+  </html>
