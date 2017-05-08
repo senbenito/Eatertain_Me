@@ -2,80 +2,106 @@
 <html>
 
 <head>
-    <meta>
-    <title>Eatertain.me</title>
-    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta>
+  <title>Eatertain.me</title>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="main.js" defer></script>
 </head>
 
 <body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo left">Eatertain.Me</a>
+        <a href="#" data-activates="hamburger-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class=""><a href="order.html">Order Mr. Rivers Delivers Now</a></li>
+        </ul>
+        <ul class="side-nav right" id="hamburger-menu">
+          <li><a href="index.html" class="active">Mr. Rivers Delivers</a></li>
+          <li><a href="order.html">Order Mr. Rivers Delivers Now</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="header row">
+    <header>
+      <div class="col s12">
+        <h1>Welcome to Shannon's Dinner Finder</h1>
+      </div>
+    </header>
+  </div>
+
+  <div class="main">
     <main>
-<h1>Welcome to Shannon's Dinner Finder</h1>
+      <div class="row">
+        <div class="col s5 offset-s1 m6 flow-text">
+          <h2>Give us a keyword to start with:</h2>
+          <input type="text" id="keyword" placeholder="maybe 'chicken' or 'salad' or 'grilled'">
+        </div><!-- closes keyword col div -->
 
+        <div class="col s5 offset-s1 m6 flow-text">
+          <h2>Then, please select a cuisine below:<br>
+            <span class="advice">Click off the menu when you've made all your selections</span></h2>
+            <select multiple="multiple" id="cuisine" name="cuisine">
+              <option value="african">African</option>
+              <option value="chinese">Chinese</option>
+              <option value="japanese">Japanese</option>
+              <option value="korean">Korean</option>
+              <option value="vietnamese">Vietnamese</option>
+              <option value="thai">Thai</option>
+              <option value="indian">Indian</option>
+              <option value="middle+eastern">Middle Eastern</option>
+              <option value="british">British</option>
+              <option value="irish">Irish</option>
+              <option value="french">French</option>
+              <option value="italian">Italian</option>
+              <option value="mexican">Mexican</option>
+              <option value="spanish">Spanish</option>
+              <option value="jewish">Jewish</option>
+              <option value="american">American</option>
+              <option value="cajun">Cajun</option>
+              <option value="southern">Southern</option>
+              <option value="greek">Greek</option>
+              <option value="german">German</option>
+              <option value="nordic">Nordic</option>
+              <option value="eastern+european">Eastern European</option>
+              <option value="caribbean">Caribbean</option>
+              <option value="latin+american">Latin American</option>
+            </select>
+        </div><!-- closes select col div -->
 
+        <div class="col s12 center">
+          <p><button id="searchButton">Click to find out what's for dinner!</button></p>
+        </div>
 
+      </div><!-- closes row -->
 
-<h2>Give me something to start with:</h2>
-<input type="text" id="keyword" placeholder="enter a keyword here">
+      <div id="results" class="row">
+        <h2>Here's what we found:</h2>
+        <div class="col " id="recipe0">
+          <iframe id="youtube-playlist1" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
+        </div>
 
-<h2>Then, please select a cuisine below:<br>
-<span style="font-size:small">Hold CTRL / Command for multiple cuisines</span></h2>
-<select multiple="multiple" id="cuisine" name="cuisine">
-        <!-- <option value='african'>African</option> -->
-        <option value="chinese">Chinese</option>
-        <!-- <option value='japanese'>Japanese</option>
-        <option value='korean'>Korean</option>
-        <option value='vietnamese'>Vietnamese</option>
-        <option value='thai'>Thai</option>
-        <option value='indian'>Indian</option>
-        <option value='middle+eastern'>Middle Eastern</option>
-        <option value='british'>British</option>
-        <option value='irish'>Irish</option>
-        <option value='french'>French</option>
-        <option value='italian'>Italian</option>
-        <option value='mexican'>Mexican</option>
-        <option value='spanish'>Spanish</option>
-        <option value='jewish'>Jewish</option>
-        <option value='american'>American</option>
-        <option value='cajun'>Cajun</option>
-        <option value='southern'>Southern</option>
-        <option value='greek'>Greek</option>
-        <option value='german'>German</option>
-        <option value='nordic'>Nordic</option>
-        <option value='eastern+european'>Eastern European</option>
-        <option value='caribbean'>Caribbean</option>
-        <option value='latin+american'>Latin American</option> -->
-      </select>
+        <div class="results" id="recipe1">
+          <iframe id="youtube-playlist2" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
+        </div>
 
+        <div class="results" id="recipe2">
+          <iframe id="youtube-playlist3" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
+        </div>
 
-<p><button id="searchButton">Click to find out what's for dinner!</button></p>
+      </div><!-- closes results -->
+    </div><!-- closes main div -->
+  </main>
 
+</body>
 
-<div id="results">
-<h2>Here's what we found:</h2>
-
-  <div class="results" id="recipe0">
-
-    <iframe id="youtube-playlist1" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
-  </div>
-
-  <div class="results" id="recipe1">
-
-    <iframe id="youtube-playlist2" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
-  </div>
-
-  <div class="results" id="recipe2">
-
-    <iframe id="youtube-playlist3" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
-  </div>
-
-</div>
-
-    </main>
-
-  </body>
-    <script src="main.js"></script>
-  </html>
+</html>

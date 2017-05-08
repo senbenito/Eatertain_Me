@@ -1,11 +1,17 @@
 $(document).ready(function() {
-  var results = [];
   console.log('Ready to go!');
-
+  $('select').material_select();
+  $('.fixed-action-btn').openFAB();
+  $('.fixed-action-btn').closeFAB();
+  $(".button-collapse").sideNav({
+    menuWidth: 300,
+    edge: 'right',
+    closeOnClick: true,
+    });
+  var results = [];
   $('#results').hide();
   $('#searchButton').on('click', function() {
     $('#results').show();
-
     var query = $('#keyword').val();
     console.log(query);
     var cuisine = $("#cuisine").val() || [];
@@ -28,18 +34,6 @@ $(document).ready(function() {
     //   }//closes fillRecipeResults for loop
     // }//closes fillRecipeResults function
 
-    // var $xhr = $.ajax({
-    //       url: `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine[0]}&limitLicense=false&number=1&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
-    //       type: 'GET', // The HTTP Method
-    //       data: {}, // Additional parameters here
-    //       datatype: 'json',
-    //       // success: function(data) { alert(JSON.stringify(data)); },
-    //       // error: function(err) { alert(err); },
-    //       beforeSend: function(xhr) {
-    //         xhr.setRequestHeader(); // Enter here your Mashape key
-    //       }
-    //     });//closes $.ajax
-
     // $xhr.done(function(data) {
     //   if ($xhr.status !== 200) {
     //     return;
@@ -57,56 +51,46 @@ $(document).ready(function() {
     // });//closes $xhr.fail
 
     fillResults(data);
-    // $('#youtube-playlist1').before(results);
 
-
-    // var tag = document.createElement('script');
-    // tag.src = "https://www.youtube.com/iframe_api";
-    // var firstScriptTag = document.getElementsByTagName('script')[0];
-    // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-
-    //think of doing this as an empty variable with each new result pushed into it, then pushing that variable into the empty <div>
     function fillResults(data) {
       console.log('filling results');
       var cuisinePlaylist = [];
 
       for (var i = 0; i < 3; i++) {
         var recipeId = $(`#recipe${i}`);
-        //add if statement to skip over european and asian?
         recipeId.before(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>
         <h2 style='font-size:small'>Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
         <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
         <img src=${data.results[i].image}>`);
         switch (data.results[i].cuisines[0]) {
           case "african":
-            cuisinePlaylist[i] = 'afrikaa bambataa';
+            cuisinePlaylist[i] = 'qEwnHf9Q23k?list=RDqEwnHf9Q23k';
             break;
 
           case "chines":
-            cuisinePlaylist[i] = 'erhu';
+            cuisinePlaylist[i] = 'rERvjIrkrRc&list=RDrERvjIrkrRc';
             break;
 
           case "japanes":
-            cuisinePlaylist[i] = 'koto';
+            cuisinePlaylist[i] = 'DkW1iTyS8dk&list=RDDkW1iTyS8dk';
             break;
 
           case "asian":
             switch (data.results[i].cuisines[1]) {
               case korean:
-                cuisinePlaylist[i] = 'bulgogi';
+                cuisinePlaylist[i] = '4tBnF46ybZk?list=PLCC67A0CADDE19926';
                 break;
 
               case "vietnames":
-                cuisinePlaylist[i] = 'paint it black';
+                cuisinePlaylist[i] = 'fgPrp1KElQk&list=RDfgPrp1KElQk';
                 break;
 
               case "thai":
-                cuisinePlaylist[i] = 'bangkok';
+                cuisinePlaylist[i] = 'SXXK4P2Ogs0&list=RDSXXK4P2Ogs0';
                 break;
 
               default://indian
-                cuisinePlaylist[i] = 'ragas';
+                cuisinePlaylist[i] = 'QE7uASiH9cM&list=RDQE7uASiH9cM';
             }//closes asian switch
             break;
 
@@ -187,8 +171,8 @@ $(document).ready(function() {
         }
       }//closes fillResults for loop
       $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
-      // $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
-      // $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
+      $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
+      $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
     }//closes fillResults
 
             // var deferredStuff = $.Deferred();
