@@ -1,87 +1,119 @@
 $(document).ready(function() {
   var results = [];
   console.log('Ready to go!');
+
   $('#results').hide();
-  var pandora = {
-    // 'african':'http://www.pandora.com/station/play/3527385417854507083',
-    'chinese': 'http://www.pandora.com/station/play/3527394342796548171',
-    'japanes': 'http://www.pandora.com/station/play/3527394703573801035',
-    'asian': 'https://www.pandora.com/station/play/3520090570501641806',
-    // 'korean':'https://www.pandora.com/station/play/3520095067332400718',
-    // 'vietnames': 'https://www.youtube.com/watch?v=lSZLlD8TrIc',
-    'thai': 'https://www.youtube.com/watch?v=SXXK4P2Ogs0',
-    'indian': 'https://www.pandora.com/station/play/3520096587750823502',
-    // 'middl eastern': 'http://www.pandora.com/station/play/3527403366522837067'
-    'english':'',
-    // 'irish': '',
-    'french': '',
-    'mediterranean': '',
-    'italian': '',
-    'mexican': '',
-    'spanish': '',
-    // 'jewish': '',
-    'american': '',
-    'cajun': '',
-    'southern': '',
-    'greek': '',
-    'german': '',
-    // 'nordic': '',
-    'european': '',
-    // 'eastern european': '',
-    'caribbean': '',
-    'south american': '',
-    'latin american': '',
-  };
   $('#searchButton').on('click', function() {
-    $('#results').show();
-    var query = $('#keyword').val();
-    console.log(query);
-    var cuisine = $("#cuisine").val() || [];
-    console.log(cuisine);
-    var $xhr = fillRecipeResults(cuisine);
-    function fillRecipeResults(array){
-      for (var i=0; i<array.length; i++){
-        $.ajax({
-          url: `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${array[i]}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
-          type: 'GET', // The HTTP Method
-          data: {}, // Additional parameters here
-          datatype: 'json',
-          // success: function(data) { alert(JSON.stringify(data)); },
-          // error: function(err) { alert(err); },
-          beforeSend: function(xhr) {
-            xhr.setRequestHeader(); // Enter here your Mashape key
-          }
-        });//closes $.ajax
-      }//closes fillRecipeResults for loop
+  $('#results').show();
+
+  var query = $('#keyword').val();
+  console.log(query);
+  var cuisine = $("#cuisine").val() || [];
+  console.log(cuisine);
+
+  // var $xhr = fillRecipeResults(cuisine);
+  // function fillRecipeResults(array){
+  //   for (var i=0; i<array.length; i++){
+  //     $.ajax({
+  //       url: `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${array[i]}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
+  //       type: 'GET', // The HTTP Method
+  //       data: {}, // Additional parameters here
+  //       datatype: 'json',
+  //       // success: function(data) { alert(JSON.stringify(data)); },
+  //       // error: function(err) { alert(err); },
+  //       beforeSend: function(xhr) {
+  //         xhr.setRequestHeader("X-Mashape-Authorization", "eIdeUa3WJumshC2gXfp0hmGLMAIDp1X6gTTjsnizBlCdBoc10t"); // Enter here your Mashape key
+  //       }
+  //     });//closes $.ajax
+  //   }//closes fillRecipeResults for loop
+  // }//closes fillRecipeResults function
+
+  var $xhr = $.ajax({
+        url: `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine[0]}&limitLicense=false&number=1&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
+        type: 'GET', // The HTTP Method
+        data: {}, // Additional parameters here
+        datatype: 'json',
+        // success: function(data) { alert(JSON.stringify(data)); },
+        // error: function(err) { alert(err); },
+        beforeSend: function(xhr) {
+          xhr.setRequestHeader(); // Enter here your Mashape key
+        }
+      });//closes $.ajax
 
   $xhr.done(function(data) {
     if ($xhr.status !== 200) {
       return;
     }
     console.log(data);
-    fillResults();
-    $('#results').append(results);
+    fillResults(data);
+    $('#player').before(results);
   });//closes $xhr.done
 
   $xhr.fail(function() {
     alert("AJAX failed!");
   });//closes $xhr.fail
 
+  // 3. This function creates an <iframe> (and YouTube player)
+  //    after the API code downloads.
+  var player = $("#player");
+
+  function genre(query){
+    var result = "";
+      if (query === 'chinese'){
+        result = "M7lc1UVf-VE";
+      }
+    return result;
+  }
+
+  function onYouTubeIframeAPIReady() {
+    $("#player").attr("src", `http://www.youtube.com/embed/${genre(query)}`);
+    player = new YT.Player('player', {
+      // height: '390',
+      // width: '640',
+      // videoId: 'M7lc1UVf-VE',
+      events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  // 4. The API will call this function when the video player is ready.
+  function onPlayerReady(event) {
+    event.target.playVideo();
+  }
+
+  // 5. The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  // var done = false;
+  // function onPlayerStateChange(event) {
+  //   if (event.data == YT.PlayerState.PLAYING && !done) {
+  //     setTimeout(stopVideo, 6000);
+  //     done = true;
+  //   }
+  // }
+  function stopVideo() {
+    player.stopVideo();
+  }
+
   //think of doing this as an empty variable with each new result pushed into it, then pushing that variable into the empty <div>
-  function fillResults() {
-    for (var i = 0; i < 3; i++) {
-      var pandoraLink = data.results[i].cuisines[0]
+  function fillResults(data) {
+    for (var i = 0; i < 1; i++) {
+      // var pandoraLink = data.results[i].cuisines[0]
       //add if statement to skip over european and asian?
       results.push(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>`);
           // console.log(data.results[i].title);
       results.push(`<h2 style='font-size:small'>Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>`);
-      results.push(`<p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a> <a href="${pandora[pandoraLink]}">Why not some mood music too?</a></p>`);
+      results.push(`<p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>`);
+      // results.push(`<p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a> <a href="${pandora[pandoraLink]}">Why not some mood music too?</a></p>`);
       // console.log(data.results[i].cuisines[0]);
       results.push(`<img src=${data.results[i].image}>`);
     }//closes fillResults for loop
     console.log(results);
+
     return results;
-  };//closes fillResults
+  }//closes fillResults
 
           // var deferredStuff = $.Deferred();
           // deferredStuff.done(fillResults());
@@ -92,11 +124,10 @@ $(document).ready(function() {
           // });
 
 
-      });
-  });
+  }); //closes on('click function
 
-  //document.ready closing
-});
+}); //document.ready closing
+
 
 // var data = {
 //   "results": [
