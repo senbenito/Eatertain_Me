@@ -1,7 +1,11 @@
 .advice{
   font-size: medium;
-}
+  color: #ee6e73;}
 
 .header{
   text-align: center;
+}
+
+#userInterface{
+  font-size: medium;
 }
