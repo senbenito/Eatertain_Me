@@ -57,7 +57,7 @@ $(document).ready(function() {
     // });//closes $xhr.fail
 
     fillResults(data);
-    $('#youtube-playlist1').before(results);
+    // $('#youtube-playlist1').before(results);
 
 
     // var tag = document.createElement('script');
@@ -65,31 +65,130 @@ $(document).ready(function() {
     // var firstScriptTag = document.getElementsByTagName('script')[0];
     // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    var cuisinePlaylist1 = 'kq7cQNO0gYc';
-    $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist1}`);
-    var cuisinePlaylist2 = 'TSD30PDvLYM';
-    $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist2}`);
-    var cuisinePlaylist3 = 'WHryvQQu9LU';
-    $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist3}`);
 
     //think of doing this as an empty variable with each new result pushed into it, then pushing that variable into the empty <div>
     function fillResults(data) {
       console.log('filling results');
+      var cuisinePlaylist = [];
+
       for (var i = 0; i < 3; i++) {
         var recipeId = $(`#recipe${i}`);
         //add if statement to skip over european and asian?
+        recipeId.before(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>
+        <h2 style='font-size:small'>Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
+        <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
+        <img src=${data.results[i].image}>`);
+        switch (data.results[i].cuisines[0]) {
+          case "african":
+            cuisinePlaylist[i] = 'afrikaa bambataa';
+            break;
 
-        recipeId.append(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>`);
-            // console.log(data.results[i].title);
-        // results.push(`<h2 style='font-size:small'>Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>`);
-        // results.push(`<p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>`);
-        // results.push(`<p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a> <a href="${pandora[pandoraLink]}">Why not some mood music too?</a></p>`);
-        // console.log(data.results[i].cuisines[0]);
-        // results.push(`<img src=${data.results[i].image}>`);
+          case "chines":
+            cuisinePlaylist[i] = 'erhu';
+            break;
+
+          case "japanes":
+            cuisinePlaylist[i] = 'koto';
+            break;
+
+          case "asian":
+            switch (data.results[i].cuisines[1]) {
+              case korean:
+                cuisinePlaylist[i] = 'bulgogi';
+                break;
+
+              case "vietnames":
+                cuisinePlaylist[i] = 'paint it black';
+                break;
+
+              case "thai":
+                cuisinePlaylist[i] = 'bangkok';
+                break;
+
+              default://indian
+                cuisinePlaylist[i] = 'ragas';
+            }//closes asian switch
+            break;
+
+          case "european":
+            switch (data.results[i].cuisines[1]) {
+
+              case "irish":
+                cuisinePlaylist[i] = 'u2';
+                break;
+
+              case "eastern european":
+                cuisinePlaylist[i] = 'dracula';
+                break;
+
+              default://english
+              cuisinePlaylist[i] = 'beatles';
+            }//closes european switch
+          break;
+
+          case "mediterranean":
+            switch (data.results[i].cuisines[2]) {
+              case "french":
+                cuisinePlaylist[i] = 'edith piaf';
+                break;
+
+              default://italian
+                cuisinePlaylist[i] = 'pavorotti';
+            }//closes mediterranean switch
+          break;
+
+          case "mexican":
+            cuisinePlaylist[i] = 'los lobos';
+            break;
+
+          case "spanish":
+            cuisinePlaylist[i] = 'flamenco';
+            break;
+
+          case "jewish":
+            cuisinePlaylist[i] = 'hava nagilah';
+            break;
+
+          case "american":
+            cuisinePlaylist[i] = 'robert johnson';
+            break;
+
+          case "cajun":
+            cuisinePlaylist[i] = 'zydeco';
+            break;
+
+          case "southern":
+            cuisinePlaylist[i] = 'ugk';
+            break;
+
+          case "greek":
+            cuisinePlaylist[i] = 'yanni';
+            break;
+
+          case "german":
+            cuisinePlaylist[i] = 'polka';
+            break;
+
+          case "scandinavian":
+            cuisinePlaylist[i] = 'gunther';
+            break;
+
+          case "caribbean":
+            cuisinePlaylist[i] = 'love sponge';
+            break;
+
+          case "south american":
+            cuisinePlaylist[i] = 'canciones';
+            break;
+
+          default://empty
+            cuisinePlaylist[i] = 'the big chill';
+
+        }
       }//closes fillResults for loop
-      // console.log(results);
-      //
-      // return results;
+      $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
+      // $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
+      // $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
     }//closes fillResults
 
             // var deferredStuff = $.Deferred();
