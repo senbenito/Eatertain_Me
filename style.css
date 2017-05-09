@@ -5,6 +5,11 @@ body{
   background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 
+img{
+  height: auto;
+  width: 95%;
+}
+
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
@@ -82,6 +87,13 @@ h1:hover {
   animation: neon4 1.5s ease-in-out infinite alternate;
 }
 
+.card-title{
+  color: #ee6e73;
+}
+
+.card-content{
+  color: white;
+}
 
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
