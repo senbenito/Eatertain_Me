@@ -57,11 +57,19 @@ $(document).ready(function() {
       var cuisinePlaylist = [];
 
       for (var i = 0; i < 3; i++) {
-        var recipeId = $(`#recipe${i}`);
-        recipeId.before(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>
-        <h2 >Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
-        <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
-        <img src=${data.results[i].image}>`);
+        // var recipeCard = $(`#recipe${i}card`);
+        var recipeImage = $(`#recipe${i}img`);
+        var recipeTitle = $(`#recipe${i}title`);
+        var recipeContent = $(`#recipe${i}content`);
+
+        recipeImage.attr("src", `${data.results[i].image}`);
+        recipeTitle.html(`${data.results[i].title}`);
+        recipeContent.html(`Ready in ${data.results[i].readyInMinutes} minutes.<br> Makes ${data.results[i].servings} servings.`);
+
+        // recipeId.before(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>
+        // <h2 >Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
+        // <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
+        // <img src=${data.results[i].image}>`);
         switch (data.results[i].cuisines[0]) {
           case "african":
             cuisinePlaylist[i] = 'qEwnHf9Q23k?list=RDqEwnHf9Q23k';
@@ -170,9 +178,9 @@ $(document).ready(function() {
 
         }
       }//closes fillResults for loop
-      $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
-      $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
-      $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
+      $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
+      $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
+      $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
     }//closes fillResults
 
             // var deferredStuff = $.Deferred();
