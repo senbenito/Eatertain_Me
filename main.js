@@ -59,7 +59,7 @@ $(document).ready(function() {
       for (var i = 0; i < 3; i++) {
         var recipeId = $(`#recipe${i}`);
         recipeId.before(`<h3><span style='font-size:medium'>${data.results[i].title}</span></h3>
-        <h2 style='font-size:small'>Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
+        <h2 >Ready in ${data.results[i].readyInMinutes} minutes. Makes ${data.results[i].servings} servings.</h2>
         <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
         <img src=${data.results[i].image}>`);
         switch (data.results[i].cuisines[0]) {

@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Monoton|Raleway');
+  </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
   <script src="main.js" defer></script>
 </head>
@@ -19,13 +21,13 @@
     <nav>
       <div class="nav-wrapper">
         <a href="index.html" class="brand-logo left">Eatertain.Me</a>
-        <a href="#" data-activates="hamburger-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="hamburger-menu" class="button-collapse right"><i class="material-icons md-light">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li class=""><a href="order.html">Order Mr. Rivers Delivers Now</a></li>
+          <li class=""><a href="about.html">What is Eatertain.Me?</a></li>
         </ul>
         <ul class="side-nav right" id="hamburger-menu">
-          <li><a href="index.html" class="active">Mr. Rivers Delivers</a></li>
-          <li><a href="order.html">Order Mr. Rivers Delivers Now</a></li>
+          <li><a href="index.html" class="active">Let's wok & roll!</a></li>
+          <li><a href="about.html">What is Eatertain.Me?</a></li>
         </ul>
       </div>
     </nav>
@@ -34,7 +36,8 @@
   <div class="header row">
     <header>
       <div class="col s12">
-        <h1>Welcome to Shannon's Dinner Finder</h1>
+        <h1>Eatertain.Me</h1>
+        <p class="flow-text">makes your cooking better.</p>
       </div>
     </header>
   </div>
@@ -42,14 +45,14 @@
   <div class="main">
     <main>
       <div class="row" id="userInterface">
-        <div class="col s5 offset-s1 m6">
-          <h2>Give us a keyword to start with:</h2>
+        <div class="col s6 m5 offset-m1">
+          <p class="flow-text">Enter a keyword to search:</p>
           <input type="text" id="keyword" placeholder="maybe 'chicken' or 'salad' or 'grilled'">
         </div><!-- closes keyword col div -->
 
-        <div class="col s5 offset-s1 m6">
-          <h2>Then, please select a cuisine below:<br>
-            <span class="advice">Click off the menu when you've made all your selections</span></h2>
+        <div class="col s6 m4 offset-m1">
+          <p class="flow-text">Pick your cuisine(s) below:<br>
+            <span class="advice">Click off the menu when you've made all your selections</span></p>
             <select multiple="multiple" id="cuisine" name="cuisine">
               <option value="african">African</option>
               <option value="chinese">Chinese</option>
@@ -77,9 +80,10 @@
               <option value="latin+american">Latin American</option>
             </select>
         </div><!-- closes select col div -->
+        <div class="col m1"></div>
 
         <div class="col s12 center">
-          <p><button id="searchButton">Click to find out what's for dinner!</button></p>
+          <p><button id="searchButton" class="waves-effect waves-light btn">Click to find out what's for dinner!</button></p>
         </div>
 
       </div><!-- closes row -->
