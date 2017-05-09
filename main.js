@@ -16,35 +16,35 @@ $(document).ready(function() {
     var cuisine = $("#cuisine").val() || [];
     console.log(cuisine);
 
-    // var $xhr = fillRecipeResults(cuisine);
-    // function fillRecipeResults(array){
-    //   console.log('Calling Spoonacular API');
-    //   for (var i=0; i<array.length; i++){
-    //     $.ajax({
-    //       url: `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${array[i]}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
-    //       type: 'GET', // The HTTP Method
-    //       data: {}, // Additional parameters here
-    //       datatype: 'json',
-    //       // success: function(data) { alert(JSON.stringify(data)); },
-    //       // error: function(err) { alert(err); },
-    //       beforeSend: function(xhr) {
-    //         xhr.setRequestHeader(); // Enter here your Mashape key
-    //       }
-    //     });//closes $.ajax
-    //   }//closes fillRecipeResults for loop
-    // }//closes fillRecipeResults function
-    //
-    // $xhr.done(function(data) {
-    //   if ($xhr.status !== 200) {
-    //     return;
-    //   }
-    //   console.log(data);
-    //   fillResults(data);
-    // });//closes $xhr.done
-    //
-    // $xhr.fail(function() {
-    //   alert("AJAX failed!");
-    // });//closes $xhr.fail
+    var $xhr = fillRecipeResults(cuisine);
+    function fillRecipeResults(array){
+      console.log('Calling Spoonacular API');
+      for (var i=0; i<array.length; i++){
+        $.ajax({
+          url: `https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${array[i]}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`, // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
+          type: 'GET', // The HTTP Method
+          data: {}, // Additional parameters here
+          datatype: 'json',
+          // success: function(data) { alert(JSON.stringify(data)); },
+          // error: function(err) { alert(err); },
+          beforeSend: function(xhr) {
+            xhr.setRequestHeader(); // Enter here your Mashape key
+          }
+        });//closes $.ajax
+      }//closes fillRecipeResults for loop
+    }//closes fillRecipeResults function
+
+    $xhr.done(function(data) {
+      if ($xhr.status !== 200) {
+        return;
+      }
+      console.log(data);
+      fillResults(data);
+    });//closes $xhr.done
+
+    $xhr.fail(function() {
+      alert("AJAX failed!");
+    });//closes $xhr.fail
 
     fillResults(data); //use this data to access data object below for call-free testing
 
