@@ -18910,6 +18910,3860 @@ var chicken = {
             "dinner"
           ],
           "analyzedInstructions": []
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 16,
+          "gaps": "no",
+          "lowFodmap": true,
+          "ketogenic": false,
+          "whole30": true,
+          "servings": 2,
+          "preparationMinutes": 5,
+          "cookingMinutes": 30,
+          "sourceUrl": "http://www.food.com/recipe/grilled-greek-chicken-237322",
+          "spoonacularSourceUrl": "https://spoonacular.com/grilled-greek-chicken-136537",
+          "aggregateLikes": 0,
+          "spoonacularScore": 64,
+          "healthScore": 22,
+          "creditText": "Food.com",
+          "sourceName": "Food.com",
+          "pricePerServing": 161.9,
+          "id": 136537,
+          "title": "Grilled Greek Chicken",
+          "readyInMinutes": 35,
+          "image": "https://spoonacular.com/recipeImages/grilled-greek-chicken-2-136537.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": []
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 5,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 2,
+          "sourceUrl": "http://www.myrecipes.com/m/recipe/chicken-souvlaki-with-tzatziki-sauce-10000000698653/",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-souvlaki-with-tzatziki-sauce-226257",
+          "aggregateLikes": 0,
+          "spoonacularScore": 57,
+          "healthScore": 20,
+          "creditText": "My Recipes",
+          "sourceName": "My Recipes",
+          "pricePerServing": 213.42,
+          "id": 226257,
+          "title": "Chicken Souvlaki with Tzatziki Sauce",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/chicken-souvlaki-with-tzatziki-sauce-226257.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "To prepare souvlaki, combine the first 5 ingredients in a zip-top plastic bag; seal and shake to combine.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 221671,
+                      "name": "ziploc bags",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-bag.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Add chicken to bag; seal and shake to coat. Marinate chicken in refrigerator for 30 minutes, turning once.",
+                  "ingredients": [],
+                  "equipment": [],
+                  "length": {
+                    "number": 30,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 3,
+                  "step": "Remove chicken from bag; discard marinade. Thread the chicken and zucchini, alternately onto each of 4 (8-inch) skewers.",
+                  "ingredients": [
+                    {
+                      "id": 11477,
+                      "name": "zucchini",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/zucchini.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 3065,
+                      "name": "skewers",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wooden-skewers.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Heat a grill pan coated with cooking spray over medium-high heat.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404648,
+                      "name": "grill pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/grill-pan.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Add skewers; cook 8 minutes or until chicken is done, turning once.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 3065,
+                      "name": "skewers",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wooden-skewers.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 8,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 6,
+                  "step": "To prepare tzatziki sauce, combine cucumber, yogurt, 1 tablespoon lemon juice, 1/4 teaspoon salt, and 1 garlic clove, stirring well.",
+                  "ingredients": [
+                    {
+                      "id": 11215,
+                      "name": "whole garlic cloves",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    },
+                    {
+                      "id": 9152,
+                      "name": "lemon juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+                    },
+                    {
+                      "id": 11206,
+                      "name": "cucumber",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/cucumber.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Serve the tzatziki sauce with souvlaki.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 4,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "sourceUrl": "http://littleleopardbook.com/2013/07/18/greek-chicken-salad-sandwich/",
+          "spoonacularSourceUrl": "https://spoonacular.com/greek-chicken-salad-sandwich-560189",
+          "aggregateLikes": 351,
+          "spoonacularScore": 71,
+          "healthScore": 11,
+          "creditText": "Little Leopard Book",
+          "sourceName": "Little Leopard Book",
+          "pricePerServing": 214.54,
+          "id": 560189,
+          "title": "Greek Chicken Salad Sandwich",
+          "readyInMinutes": 15,
+          "image": "https://spoonacular.com/recipeImages/Greek-Chicken-Salad-Sandwich-560189.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Combine the shredded chicken, olives, cucumbers, grape tomatoes and bell peppers in a large mixing bowl.In a small bowl, mix together the greek yogurt, crushed garlic, oregano, black pepper and 1 lemon, juiced.",
+                  "ingredients": [
+                    {
+                      "id": 10111529,
+                      "name": "grape tomato",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/cherry-tomatoes.jpg"
+                    },
+                    {
+                      "id": 1002030,
+                      "name": "black pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/pepper.jpg"
+                    },
+                    {
+                      "id": 1256,
+                      "name": "greek yogurt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-cream.jpg"
+                    },
+                    {
+                      "id": 11206,
+                      "name": "cucumber",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/cucumber.jpg"
+                    },
+                    {
+                      "id": 2027,
+                      "name": "oregano",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/oregano.jpg"
+                    },
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    },
+                    {
+                      "id": 9195,
+                      "name": "olives",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olives-mixed.jpg"
+                    },
+                    {
+                      "id": 9150,
+                      "name": "lemon",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405907,
+                      "name": "mixing bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Pour the dressing over the chicken salad.Toss well.Slice the pita bread in half, spoon the chicken salad into the pita and top with the feta cheese.",
+                  "ingredients": [
+                    {
+                      "id": 1019,
+                      "name": "feta cheese",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/feta-cheese.jpg"
+                    },
+                    {
+                      "id": 18413,
+                      "name": "pita",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/pita-bread.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Serve each pita sandwich with a lemon wedge for squeezing on top.",
+                  "ingredients": [
+                    {
+                      "id": 9150,
+                      "name": "lemon wedge",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-wedge.jpg"
+                    },
+                    {
+                      "id": 18413,
+                      "name": "pita",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/pita-bread.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": true,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 3,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": true,
+          "servings": 8,
+          "sourceUrl": "http://thehealthyfoodie.com/chicken-souvlakis-tzatziki-sauce/",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-souvlaki-550778",
+          "aggregateLikes": 1662,
+          "spoonacularScore": 68,
+          "healthScore": 9,
+          "creditText": "The Healthy Foodie",
+          "sourceName": "The Healthy Foodie",
+          "pricePerServing": 121.76,
+          "id": 550778,
+          "title": "Chicken Souvlaki",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/Chicken-Souvlaki-550778.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Add olive oil, lemon juice, white wine vinegar, minced garlic, dried oregano, salt and pepper to a small mixing bowl or measuring cup; whisk until well incorporated.",
+                  "ingredients": [
+                    {
+                      "id": 1002068,
+                      "name": "white wine vinegar",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vinegar-(white).jpg"
+                    },
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 9152,
+                      "name": "lemon juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+                    },
+                    {
+                      "id": 4053,
+                      "name": "olive oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404766,
+                      "name": "measuring cup",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/measuring-cup.jpg"
+                    },
+                    {
+                      "id": 405907,
+                      "name": "mixing bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+                    },
+                    {
+                      "id": 404661,
+                      "name": "whisk",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Place chunks of chicken in a bowl and pour marinade over them.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Mix to coat really well, cover and place in the refrigerator to marinate for a couple of hours, or better yet, overnight.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Place skewers to soak in cold water for about 30 minutes before you start building your kebabs.Preheat outdoor grill (or grill pan) to medium-high heat.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404648,
+                      "name": "grill pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/grill-pan.jpg"
+                    },
+                    {
+                      "id": 3065,
+                      "name": "skewers",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wooden-skewers.jpg"
+                    },
+                    {
+                      "id": 404706,
+                      "name": "grill",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 30,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Remove chicken from the marinade and skewer onto bamboo sticks. Discard unused marinade.Grill the kebabs, turning them a few times, until chicken is cooked through, is nicely browned and has nice grill marks and is no longer pink in the center, about 10-12 minutes total.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 3065,
+                      "name": "skewers",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wooden-skewers.jpg"
+                    },
+                    {
+                      "id": 404706,
+                      "name": "grill",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 12,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 6,
+                  "step": "Serve with tzatziki sauce.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 7,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 10,
+          "cookingMinutes": 35,
+          "sourceUrl": "http://wearychef.com/greek-yogurt-chicken-herbs/",
+          "spoonacularSourceUrl": "https://spoonacular.com/greek-yogurt-chicken-with-herbs-779410",
+          "aggregateLikes": 156,
+          "spoonacularScore": 82,
+          "healthScore": 18,
+          "creditText": "Weary Chef",
+          "sourceName": "Weary Chef",
+          "pricePerServing": 242.17,
+          "id": 779410,
+          "title": "Greek Yogurt Chicken with Herbs",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/greek-yogurt-chicken-with-herbs-779410.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Cut deep slits in both sides of each chicken breast, being careful not to cut all the way through the chicken.In a medium bowl stir together yogurt, herbs, salt, and pepper.",
+                  "ingredients": [
+                    {
+                      "id": 5062,
+                      "name": "chicken breast",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 1002030,
+                      "name": "pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/pepper.jpg"
+                    },
+                    {
+                      "id": 1002044,
+                      "name": "herbs",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-fresh-herbs.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Mix chicken into the yogurt mixture, making sure yogurt completely coats each piece and gets into the slits. Allow to marinate for 2-24 hours.Preheat oven to 350 degrees F.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+                      "temperature": {
+                        "number": 350,
+                        "unit": "Fahrenheit"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Cut four pieces of foil to about 18 inches long.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Place a piece of chicken diagonally in the center of each piece of foil. Bring two corners to the center, and fold down. Fold and pinch other two corners to the middle to close and make a seal. (See image.)",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Place foil packets on a cookie sheet, and bake 20-30 minutes. (Very thick cuts of chicken will need the longer bake time.) Carefully open the foil (watch out for steam!!), and fold down the sides to make a little boat. (You don't want to lose the juices inside.)",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404727,
+                      "name": "baking sheet",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+                    },
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 30,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 6,
+                  "step": "Spread about 1/4 cup cheese over each piece of chicken, and return to the oven for about 5 minutes or until the cheese is melted.To serve, place a bed of spinach leaves on a plate, and carefully pour the juices from a foil packet over the spinach. Then, transfer the hot, cheesy, greek yogurt chicken on top of the spinach leaves. Enjoy immediately.",
+                  "ingredients": [
+                    {
+                      "id": 1256,
+                      "name": "greek yogurt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-cream.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 5,
+                    "unit": "minutes"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 21,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 5,
+          "preparationMinutes": 30,
+          "cookingMinutes": 25,
+          "sourceUrl": "https://www.bettycrocker.com/recipes/greek-chicken-and-pasta/4aff464b-97ad-44df-82bf-d94fcfd5165b",
+          "spoonacularSourceUrl": "https://spoonacular.com/greek-chicken-and-pasta-168810",
+          "aggregateLikes": 0,
+          "spoonacularScore": 59,
+          "healthScore": 22,
+          "creditText": "Betty Crocker",
+          "sourceName": "Betty Crocker",
+          "pricePerServing": 294.18,
+          "id": 168810,
+          "title": "Greek Chicken and Pasta",
+          "readyInMinutes": 55,
+          "image": "https://spoonacular.com/recipeImages/Greek-Chicken-and-Pasta-168810.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "greek",
+            "mediterranean",
+            "european"
+          ],
+          "dishTypes": [
+            "side dish",
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "1",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 2,
+                  "step": "Heat oven to 350°F. Spray 11x7-inch (2-quart) glass baking dish with cooking spray. Cook and drain pasta as directed on package.",
+                  "ingredients": [
+                    {
+                      "id": 20420,
+                      "name": "pasta",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 406921,
+                      "name": "glass baking pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/glass-baking-tray.jpg"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+                      "temperature": {
+                        "number": 350,
+                        "unit": "Fahrenheit"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "2",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Meanwhile, in 3-quart saucepan, melt butter over medium heat.",
+                  "ingredients": [
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404669,
+                      "name": "sauce pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Add onion; cook 3 minutes, stirring occasionally. Stir in flour; cook and stir 30 seconds. Slowly stir in broth; heat to boiling. Cook 3 to 4 minutes, stirring frequently, until thickened.",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [],
+                  "length": {
+                    "number": 6,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 6,
+                  "step": "Remove from heat; stir in cheese. Gently stir in cooked pasta, chicken, artichoke hearts, tomatoes, olives and parsley. Spoon into baking dish.",
+                  "ingredients": [
+                    {
+                      "id": 93828,
+                      "name": "artichoke hearts",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/artichoke-hearts.jpg"
+                    },
+                    {
+                      "id": 11297,
+                      "name": "parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    },
+                    {
+                      "id": 9195,
+                      "name": "olives",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olives-mixed.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404646,
+                      "name": "baking pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 7,
+                  "step": "3",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 8,
+                  "step": "Bake uncovered 25 to 30 minutes or until hot.",
+                  "ingredients": [],
+                  "equipment": [],
+                  "length": {
+                    "number": 25,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 9,
+                  "step": "Garnish with additional fresh parsley if desired.",
+                  "ingredients": [
+                    {
+                      "id": 11297,
+                      "name": "fresh parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 9,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 6,
+          "sourceUrl": "http://www.epicurious.com/recipes/food/views/Chicken-Schnitzel-with-Frisee-Apple-Salad-357237",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-schnitzel-with-frise-apple-salad-152300",
+          "aggregateLikes": 0,
+          "spoonacularScore": 48,
+          "healthScore": 11,
+          "creditText": "Epicurious",
+          "sourceName": "Epicurious",
+          "pricePerServing": 116.53,
+          "id": 152300,
+          "title": "Chicken Schnitzel with Frisée-Apple Salad",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/chicken-schnitzel-with-frise-apple-salad-152300.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "What to Drink",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "A medium-bodied Côtesdu Rhône would be a good choice withthe schnitzel. Try the Perrin & Fils 2007\"Réserve\" Côtes du Rhône, a wine withblackberry, licorice, and herbal notes. Atjust $8 a bottle, it also happens to be anincredible bargain.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 2,
+                  "step": "Per serving: (Analysis does not include Frisée-Apple Salad.) 481.2 kcal calories,49.8 % calories from fat    26.7 g fat,8.0 g saturated fat,",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "2 mg cholesterol,",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "3 g carbohydrates,",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 5,
+                  "step": "0 g dietary fiber,",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 6,
+                  "step": "2 g total sugars,",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "3 g net carbohydrates,   36.5 g protein",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 8,
+                  "step": "Nutritional analysis provided by",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 9,
+                  "step": "Bon Appétit",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            },
+            {
+              "name": "Place large piece of plastic wrap on worksurface. Unfold 1 chicken thigh near 1 endof plastic. Fold other end of plastic overchicken to cover completely. Using mallet,pound chicken to 1/4- to 1/3-inch thickness.Set cutlet aside in plastic sheet. Repeatwith remaining chicken thighs and 5 moresheets of plastic wrap. DO AHEAD",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Cutletscan be made up to 1 day ahead. Refrigeratewrapped in plastic.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 2,
+                  "step": "Place large scoop of flour in shallowdish (such as pie dish). Beat eggs andparsley in another shallow dish to blend.",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405915,
+                      "name": "pie form",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pie-pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Place 2 cups breadcrumbs in third shallowdish. Unwrap 1 chicken cutlet and sprinkleall over with salt and pepper. Coat cutletcompletely with flour, then egg mixture,then breadcrumbs.",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Transfer cutlet torimmed baking sheet. Repeat withremaining chicken cutlets, adding moreflour and breadcrumbs as needed.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404727,
+                      "name": "baking sheet",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Divide half of butter and half of oilbetween 2 large skillets; melt butter withoil over medium-high heat.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 6,
+                  "step": "Add 3 cutletsto each skillet. Cook until coating is goldenbrown and crisp on bottom, about 3minutes. Using spatula, transfer chicken tosheet of foil. Divide remaining butter andremaining oil between skillets; swirl to meltbutter. Return chicken, browned side up, toskillets. Sauté until bottoms are brownedand chicken is cooked through, about 3minutes longer.",
+                  "ingredients": [
+                    {
+                      "id": 4582,
+                      "name": "cooking oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    },
+                    {
+                      "id": 404642,
+                      "name": "spatula",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/spatula-or-turner.jpg"
+                    },
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 6,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 7,
+                  "step": "Transfer chicken to plates.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 8,
+                  "step": "Serve with Frisée-Apple Salad.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": true,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 5,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 8,
+          "preparationMinutes": 30,
+          "cookingMinutes": 20,
+          "sourceUrl": "http://www.afamilyfeast.com/greek-chicken-roulade/",
+          "spoonacularSourceUrl": "https://spoonacular.com/greek-chicken-roulade-595776",
+          "aggregateLikes": 6623,
+          "spoonacularScore": 61,
+          "healthScore": 5,
+          "creditText": "A Family Feast ",
+          "sourceName": "A Family Feast ",
+          "pricePerServing": 135.29,
+          "id": 595776,
+          "title": "Greek Chicken Roulade",
+          "readyInMinutes": 50,
+          "image": "https://spoonacular.com/recipeImages/Greek-Chicken-Roulade-595776.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Preheat oven to 450 degrees.Pound out each chicken breast to 1/8th inch thickness.  In a small sauté pan over medium heat, sauté garlic in 1 tablespoon of the olive oil for 1-2 minutes. Do not brown. Set aside.Sprinkle each chicken breast with salt and pepper.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 5062,
+                      "name": "chicken breast",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 4053,
+                      "name": "olive oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg"
+                    },
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 2,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 2,
+                  "step": "Spread feta evenly between the four breasts, leaving the two long edges clear. Sprinkle the oregano, lemon zest and cooked garlic and oil equally between the four breasts, leaving the edges clear.",
+                  "ingredients": [
+                    {
+                      "id": 9156,
+                      "name": "lemon zest",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/zest-lemon.jpg"
+                    },
+                    {
+                      "id": 2027,
+                      "name": "oregano",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/oregano.jpg"
+                    },
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    },
+                    {
+                      "id": 1019,
+                      "name": "feta cheese",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/feta-cheese.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Roll like a jelly roll and finish seam side down.  With butchers twine, tie off each end and then make one or two ties in the center depending on the length of the roll.In a large oven proof skillet, over medium high heat, place the remaining two tablespoons of olive oil and heat to hot.",
+                  "ingredients": [
+                    {
+                      "id": 4053,
+                      "name": "olive oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    },
+                    {
+                      "id": 404733,
+                      "name": "kitchen twine",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/kitchen-string.jpg"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Add the four chicken rolls and brown turning to brown each side, about 2-3 minutes per side. After you turn the chicken to the last side, place the pan in the oven and roast for 5-10 minutes or until an internal thermometer inserted into the center of the largest roll reaches 140 degrees.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404789,
+                      "name": "kitchen thermometer",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/food-thermometer.jpg"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 13,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Remove the pan from the oven and leave the oven mitt on the handle to remind you that the handle is hot.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404735,
+                      "name": "oven mitt",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven-mitt.jpg"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 6,
+                  "step": "Remove the chicken to a platter to rest.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Heat the pan over medium high heat and add the lemon juice scraping up bits from the bottom of the pan.",
+                  "ingredients": [
+                    {
+                      "id": 9152,
+                      "name": "lemon juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 8,
+                  "step": "Add the wine and cook to reduce wine to almost the point of total evaporation.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 9,
+                  "step": "Add the chicken stock and cook to reduce by half.",
+                  "ingredients": [
+                    {
+                      "id": 6172,
+                      "name": "chicken stock",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/broth.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 10,
+                  "step": "Add the butter and stir just until melted.",
+                  "ingredients": [
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 11,
+                  "step": "Add any liquid that has accumulated on the platter.Slice cooked rolls on the bias and place back on your platter.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 12,
+                  "step": "Pour pan sauce over top and reserved minced fresh oregano.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 13,
+                  "step": "Garnish platter with lemon wedges.",
+                  "ingredients": [
+                    {
+                      "id": 9150,
+                      "name": "lemon wedge",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-wedge.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 8,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 10,
+          "cookingMinutes": 15,
+          "sourceUrl": "http://toriavey.com/toris-kitchen/2011/02/passover-chicken-schnitzel/",
+          "spoonacularSourceUrl": "https://spoonacular.com/passover-chicken-schnitzel-533197",
+          "aggregateLikes": 0,
+          "spoonacularScore": 66,
+          "healthScore": 25,
+          "creditText": "Tori Avey",
+          "sourceName": "Tori Avey",
+          "pricePerServing": 248.74,
+          "id": 533197,
+          "title": "Passover Chicken Schnitzel",
+          "readyInMinutes": 25,
+          "image": "https://spoonacular.com/recipeImages/Passover-Chicken-Schnitzel-533197.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Lay down a 2-foot long strip of plastic wrap on your kitchen countertop.",
+                  "ingredients": [
+                    {
+                      "id": 10018364,
+                      "name": "wrap",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour-tortillas.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404730,
+                      "name": "plastic wrap",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-wrap.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Place chicken breasts on the plastic, leaving a 2-inch space between each breast.  Cover the breasts with another strip of plastic, so the meat is sandwiched between two layers of plastic.  Use a mallet to pound the breasts until they are a little less than ¼ inch thick. Season breasts with salt and pepper. Set up three wide, shallow bowls and a large plate on your countertop.  In your first bowl, place the matzo cake meal. In your second bowl, beat the eggs. In your third bowl, stir together the matzo meal, paprika, and 1 tsp salt till well blended. Leave an empty plate nearby where you will place your coated schnitzels.",
+                  "ingredients": [
+                    {
+                      "id": 5062,
+                      "name": "chicken breast",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 18217,
+                      "name": "matzo meal",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/matzo.jpg"
+                    },
+                    {
+                      "id": 10018217,
+                      "name": "matzo",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/crackers.jpg"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Pour oil into a skillet until it’s deep enough for frying (about 1 inch).",
+                  "ingredients": [
+                    {
+                      "id": 4582,
+                      "name": "cooking oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Heat the oil slowly over medium. While oil is heating, dip each breast one by one into your breading bowls, coating them on both sides with each ingredient. First coat with matzo cake meal... then with egg...then with the matzo meal mixture.The ideal temperature to fry schnitzel is around 375 degrees F. When the oil is hot (but not smoking or splattering), fry the coated breasts in single-layer batches until they are golden brown on both sides. If your oil is at the right temperature, it should take about 3-4 minutes per side. Don’t fry more than two breasts at a time in a regular sized skillet, or the oil temperature will drop and the schnitzels will become greasy.After frying, set the schnitzels on a wire rack or a paper towel to drain off excess oil. Sprinkle the schnitzels with additional salt to taste.",
+                  "ingredients": [
+                    {
+                      "id": 18217,
+                      "name": "matzo meal",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/matzo.jpg"
+                    },
+                    {
+                      "id": 10018217,
+                      "name": "matzo",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/crackers.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    },
+                    {
+                      "id": 4582,
+                      "name": "cooking oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    },
+                    {
+                      "id": 405900,
+                      "name": "wire rack",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wire-rack.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    },
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 4,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Serve hot garnished with lemon wedges and your favorite condiment.",
+                  "ingredients": [
+                    {
+                      "id": 9150,
+                      "name": "lemon wedge",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-wedge.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 24,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "sourceUrl": "http://www.foodandwine.com/recipes/panko-coated-chicken-schnitzel",
+          "spoonacularSourceUrl": "https://spoonacular.com/panko-coated-chicken-schnitzel-30154",
+          "aggregateLikes": 0,
+          "spoonacularScore": 69,
+          "healthScore": 23,
+          "creditText": "Food and Wine",
+          "sourceName": "Food and Wine",
+          "pricePerServing": 238.38,
+          "id": 30154,
+          "title": "Panko-Coated Chicken Schnitzel",
+          "readyInMinutes": 15,
+          "image": "https://spoonacular.com/recipeImages/panko-coated-chicken-schnitzel-30154.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Set the flour, eggs and panko in three separate shallow bowls. Season the chicken cutlets with salt and pepper. Dredge the chicken in the flour, shaking off any excess, then dip in the eggs and coat thoroughly with the panko, pressing lightly to adhere.",
+                  "ingredients": [
+                    {
+                      "id": 1025062,
+                      "name": "chicken cutlet",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 10018079,
+                      "name": "panko",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/panko.jpg"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "In each of 2 large skillets, heat 1/4 cup of canola oil.",
+                  "ingredients": [
+                    {
+                      "id": 4582,
+                      "name": "canola oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Add the chicken and cook over moderately high heat, turning once, until golden and crispy, about 3 minutes per side.",
+                  "ingredients": [],
+                  "equipment": [],
+                  "length": {
+                    "number": 3,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 4,
+                  "step": "Transfer the chicken to a paper towel-lined baking sheet and sprinkle with salt, then transfer to plate.",
+                  "ingredients": [
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404727,
+                      "name": "baking sheet",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+                    },
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Meanwhile, in a small saucepan, melt the butter and cook over moderately high heat until browned and nutty, about 4 minutes. Stir in the capers, lemon juice and parsley; spoon over the chicken and serve.",
+                  "ingredients": [
+                    {
+                      "id": 9152,
+                      "name": "lemon juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+                    },
+                    {
+                      "id": 11297,
+                      "name": "parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    },
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    },
+                    {
+                      "id": 2054,
+                      "name": "capers",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/capers.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404669,
+                      "name": "sauce pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 4,
+                    "unit": "minutes"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 11,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 15,
+          "cookingMinutes": 20,
+          "sourceUrl": "http://toriavey.com/toris-kitchen/2011/02/chicken-schnitzel/",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-schnitzel-533272",
+          "aggregateLikes": 12,
+          "spoonacularScore": 88,
+          "healthScore": 38,
+          "creditText": "Tori Avey",
+          "sourceName": "Tori Avey",
+          "pricePerServing": 252.51,
+          "id": 533272,
+          "title": "Chicken Schnitzel",
+          "readyInMinutes": 35,
+          "image": "https://spoonacular.com/recipeImages/Chicken-Schnitzel-533272.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Lay down a 2-foot long strip of plastic wrap on your kitchen countertop.",
+                  "ingredients": [
+                    {
+                      "id": 10018364,
+                      "name": "wrap",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour-tortillas.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404730,
+                      "name": "plastic wrap",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-wrap.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Place chicken breasts on the plastic, leaving a 2-inch space between each breast.  Cover the breasts with another strip of plastic, so the meat is sandwiched between two layers of plastic.  Use a mallet to pound the breasts until they are a little less than ¼ inch thick.Set up three wide, shallow bowls and a large plate on your countertop.  In your first bowl, put the flour.  In your second bowl, beat the eggs. In your third bowl, stir together the breadcrumbs, paprika, 1 tsp salt and sesame seeds (optional) till well blended. Leave an empty plate nearby where you will place your coated schnitzels.",
+                  "ingredients": [
+                    {
+                      "id": 5062,
+                      "name": "chicken breast",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 18079,
+                      "name": "breadcrumbs",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/breadcrumbs.jpg"
+                    },
+                    {
+                      "id": 2028,
+                      "name": "paprika",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/paprika.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Pour oil into a skillet until it’s deep enough for frying (about ½ inch).",
+                  "ingredients": [
+                    {
+                      "id": 4582,
+                      "name": "cooking oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Heat the oil slowly over medium. While oil is heating, dip each breast one by one into your breading bowls—first coat with flour, then with egg, then with breadcrumb mixture.The ideal temperature to fry schnitzel is around 375 degrees F. When the oil is hot (but not smoking or splattering), fry the coated breasts in single-layer batches until they are golden brown on both sides. If your oil is at the right temperature, it should take about 3-4 minutes per side. Don’t fry more than two breasts at a time in a regular sized skillet, or the oil temperature will drop and the schnitzels will become greasy.After frying, set the schnitzels on a paper towel and pat them dry to soak off excess oil.Sprinkle the schnitzels with salt to taste.",
+                  "ingredients": [
+                    {
+                      "id": 18079,
+                      "name": "breadcrumbs",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/breadcrumbs.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    },
+                    {
+                      "id": 4582,
+                      "name": "cooking oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    },
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 4,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Serve hot garnished with lemon wedges and your favorite condiment.",
+                  "ingredients": [
+                    {
+                      "id": 9150,
+                      "name": "lemon wedge",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-wedge.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 25,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "sourceUrl": "http://www.myrecipes.com/recipe/panko-coated-chicken-schnitzel-10000001928098/",
+          "spoonacularSourceUrl": "https://spoonacular.com/panko-coated-chicken-schnitzel-30020",
+          "aggregateLikes": 0,
+          "spoonacularScore": 57,
+          "healthScore": 19,
+          "creditText": "My Recipes",
+          "sourceName": "My Recipes",
+          "pricePerServing": 189.8,
+          "id": 30020,
+          "title": "Panko-Coated Chicken Schnitzel",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/panko-coated-chicken-schnitzel-30020.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "german",
+            "european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Set the flour, eggs and panko in three separate shallow bowls. Season the chicken cutlets with salt and pepper. Dredge the chicken in the flour, shaking off any excess, then dip in the eggs and coat thoroughly with the panko, pressing lightly to adhere.",
+                  "ingredients": [
+                    {
+                      "id": 1025062,
+                      "name": "chicken cutlet",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-breasts.jpg"
+                    },
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 10018079,
+                      "name": "panko",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/panko.jpg"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "In each of 2 large skillets, heat 1/4 cup of the canola oil.",
+                  "ingredients": [
+                    {
+                      "id": 4582,
+                      "name": "canola oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/vegetable-oil.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Add the chicken and cook over moderately high heat, turning once, until golden and crispy, about 3 minutes.",
+                  "ingredients": [],
+                  "equipment": [],
+                  "length": {
+                    "number": 3,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 4,
+                  "step": "Transfer the chicken to a paper towel-lined baking sheet and sprinkle with salt.",
+                  "ingredients": [
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404727,
+                      "name": "baking sheet",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+                    },
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Meanwhile, in a small saucepan, melt the butter and cook over moderately high heat until browned and nutty, about 4 minutes. Stir in the capers, lemon juice and parsley; spoon over the chicken and serve.",
+                  "ingredients": [
+                    {
+                      "id": 9152,
+                      "name": "lemon juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+                    },
+                    {
+                      "id": 11297,
+                      "name": "parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    },
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    },
+                    {
+                      "id": 2054,
+                      "name": "capers",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/capers.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404669,
+                      "name": "sauce pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 4,
+                    "unit": "minutes"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 11,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 10,
+          "sourceUrl": "http://toriavey.com/toris-kitchen/2011/01/my-blog-iversary-chicken-noodles/",
+          "spoonacularSourceUrl": "https://spoonacular.com/swedish-chicken-noodles-533276",
+          "aggregateLikes": 0,
+          "spoonacularScore": 63,
+          "healthScore": 21,
+          "creditText": "Tori Avey",
+          "sourceName": "Tori Avey",
+          "pricePerServing": 116.91,
+          "id": 533276,
+          "title": "Swedish Chicken & Noodles",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/Swedish-Chicken---Noodles-533276.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "scandinavian",
+            "european",
+            "nordic"
+          ],
+          "dishTypes": [
+            "side dish",
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Beat 6 eggs in a small bowl till frothy. Reserve.Sift 2 cups of flour with 1 heaping tbsp of salt into your mixing bowl. Reserve 2 more cups of flour in another bowl.In your mixing bowl, make a “well” in the center of the sifted flour and pour the beaten eggs in. Use a fork to mix the eggs into the flour until it is evenly moistened.Sift more flour into the bowl, a couple of tablespoons at a time, and continue to stir until a soft dough forms.When the dough gets too thick to stir, use your hands to knead. Stop adding flour when the dough holds together and is only slightly sticky to the touch (it will be soft).",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    },
+                    {
+                      "id": 1123,
+                      "name": "egg",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405907,
+                      "name": "mixing bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Let the dough rest uncovered for 15 minutes.Coat your rolling surface generously with sifted flour. Scoop up a small handful of dough from the bowl (a little more than ½ cup of dough). Dip it in the flour on the board and pat it down to flatten it.Flour your rolling pin and roll out the dough till it’s very thin.Fold the rolled dough into quarters and move it to a sheet of parchment paper.Unfold it and leave it to dry.Repeat this process until all of the dough has been rolled out.",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404770,
+                      "name": "baking paper",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-paper.jpg"
+                    },
+                    {
+                      "id": 404746,
+                      "name": "rolling pin",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/rolling-pin.jpg"
+                    },
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 15,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 3,
+                  "step": "Let the noodle dough dry for about 2 hours, flipping the dough pieces over once halfway through drying. This amount of time can vary based on the weather—if it’s hot outside, the drying may go faster. Check the dough’s texture periodically by touching it with clean fingers. The dough is ready to cut when it is dry to the touch, but not hard. If you’re in a hurry you can cut the dough when it is half-dry, but it won’t be as easy to cut or manage.Slice each flattened piece of dough into three long strips.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Cut those strips into noodles. We usually cut them about a centimeter wide, but you can cut them thicker or thinner depending on your personal preference.Scoop up the noodles and scatter them on a piece of parchment paper to finish drying.Once you have cut the noodles, you can immediately proceed with making the chicken and noodles. If you’d rather store the noodles for future use, let them dry completely (this can take 24-48 hours depending on the weather). Once the noodles are totally dry, place them in an airtight container or Ziploc bag and store them in a dark, cool place. They will last about 1 month; discard them if they start to darken or turn black.Note: The chicken stock can actually be made while the noodles are drying, if you’re running short on time. My mom prefers to make the chicken stock after the noodles are cut, because the process is more fun when you have stretches of time to sit around and chat while things are cooking. Rinse your whole chicken (giblets removed) and place it into a large stockpot. Cover the chicken with water by about 2 inches. Bring to a boil and simmer for about 15 minutes. Skim the foam that rises to the top.",
+                  "ingredients": [
+                    {
+                      "id": 5006,
+                      "name": "whole chicken",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404770,
+                      "name": "baking paper",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-paper.jpg"
+                    },
+                    {
+                      "id": 404752,
+                      "name": "pot",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 15,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Add chopped celery, onions, and black pepper to the broth. You do not need to add any salt, the noodles contain a lot of salt so it’s best to hold off adding more at this point.",
+                  "ingredients": [
+                    {
+                      "id": 11143,
+                      "name": "celery",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/celery.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 6,
+                  "step": "Let the chicken simmer for 1 ½ to 2 hours until the meat softens and begins to fall off the bone.",
+                  "ingredients": [
+                    {
+                      "id": 1015006,
+                      "name": "meat",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Remove the chicken from the pot and place it on a roasting pan or platter. Strain the chicken broth, removing all the celery and onions. Return broth to the stockpot.If you want to cut down on fat, you can let the broth cool completely and skim the fat that collects on the surface. Pull meat from the chicken in bite-sized pieces and return it to the broth; discard bones. Bring broth back to a slow boil.",
+                  "ingredients": [
+                    {
+                      "id": 11143,
+                      "name": "celery",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/celery.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 1015006,
+                      "name": "meat",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404629,
+                      "name": "roasting pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+                    },
+                    {
+                      "id": 404752,
+                      "name": "pot",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 8,
+                  "step": "Add noodles to the broth.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 9,
+                  "step": "Let them boil gently, stirring frequently, until tender. For an al dente texture, cook for 10-12 minutes. For a softer texture (which I prefer), cook 15-16 minutes. The noodles will soak up most of the broth and produce a thick, starchy, salty sauce.If you want to add some frozen green peas, put them in during the last 10 minutes of cooking. Taste the noodles when they are completely cooked and season with additional salt and pepper, if desired.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 11304,
+                      "name": "green peas",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/peas.jpg"
+                    }
+                  ],
+                  "equipment": [],
+                  "length": {
+                    "number": 38,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 10,
+                  "step": "Serve in bowls plain or over mashed potatoes (if you’re keeping kosher, make sure the mashed potatoes are pareve). This, as my mother says, is the ultimate comfort food. Yum!",
+                  "ingredients": [
+                    {
+                      "id": 11362,
+                      "name": "potato",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/potatoes-yukon-gold.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 18,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "sourceUrl": "http://www.food.com/recipe/swedish-roast-chicken-with-spiced-apple-rice-118146",
+          "spoonacularSourceUrl": "https://spoonacular.com/swedish-roast-chicken-with-spiced-apple-rice-113985",
+          "aggregateLikes": 0,
+          "spoonacularScore": 56,
+          "healthScore": 19,
+          "creditText": "Food.com",
+          "sourceName": "Food.com",
+          "pricePerServing": 244.09,
+          "id": 113985,
+          "title": "Swedish Roast Chicken With Spiced Apple Rice",
+          "readyInMinutes": 130,
+          "image": "https://spoonacular.com/recipeImages/swedish-roast-chicken-with-spiced-apple-rice-113985.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "scandinavian",
+            "european",
+            "nordic"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Pre-heat oven to 350F.Blanch the sweet potato in boiling water for two minutes, then drain, rinse in cold water and drain again.In a medium bowl, combine sweet potato, onion, apples, shallots, garlic, thyme and mint.",
+                  "ingredients": [
+                    {
+                      "id": 11507,
+                      "name": "sweet potato",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sweet-potato.jpg"
+                    },
+                    {
+                      "id": 11677,
+                      "name": "shallot",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/shallots.jpg"
+                    },
+                    {
+                      "id": 9003,
+                      "name": "apple",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg"
+                    },
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 2049,
+                      "name": "thyme",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/thyme.jpg"
+                    },
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    },
+                    {
+                      "id": 2064,
+                      "name": "mint",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/mint.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    },
+                    {
+                      "id": 404784,
+                      "name": "oven",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+                      "temperature": {
+                        "number": 350,
+                        "unit": "Fahrenheit"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Combine the 2 tablespoons of water and the olive oil and add to the vegetable mixture, tossing to coat.With a mortar and pestle (or with the back of a heavy skillet against a cutting board) lightly crush the cinnamon, cardamom, star anise, cloves, black and white peppercorns (you can use all black if that's what you have) with the teaspoon of kosher salt.",
+                  "ingredients": [
+                    {
+                      "id": 1002032,
+                      "name": "white peppercorns",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-pepper.jpg"
+                    },
+                    {
+                      "id": 1082047,
+                      "name": "kosher salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    },
+                    {
+                      "id": 1012002,
+                      "name": "star anise",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/star-anise.jpg"
+                    },
+                    {
+                      "id": 4053,
+                      "name": "olive oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg"
+                    },
+                    {
+                      "id": 2006,
+                      "name": "cardamom",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/cardamom.jpg"
+                    },
+                    {
+                      "id": 2010,
+                      "name": "cinnamon",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/cinnamon.jpg"
+                    },
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404751,
+                      "name": "mortar and pestle",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/mortar-and-pestle.jpg"
+                    },
+                    {
+                      "id": 404716,
+                      "name": "cutting board",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/cutting-board.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Add half the spice mixture to the vegetables and reserve the rest.Rinse the chicken inside and out and pat dry with paper towels.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Remove all the excess fat.Lightly stuff the bird's cavity with about half the vegetable mixture and tie the bird's legs together with kitchen string.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404733,
+                      "name": "kitchen twine",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/kitchen-string.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Place the chicken on a rack in a roasting pan and rub it all over with the reserved spice mixture.Scatter the remaining vegetable mixture around the chicken.Roast for about one hour.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404629,
+                      "name": "roasting pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 6,
+                  "step": "Remove the vegetables that are loose in the pan and set aside in a bowl.Continue roasting for another 30 minutes or until your meat thermometer, inserted in the thigh, reaches 160F.During this time, if the pan becomes too dry, add water a few tablespoons at a time.",
+                  "ingredients": [
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    },
+                    {
+                      "id": 1015006,
+                      "name": "meat",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404789,
+                      "name": "kitchen thermometer",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/food-thermometer.jpg"
+                    },
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 30,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 7,
+                  "step": "Transfer chicken to a board, remove stuffing and add it to the other vegetables, and cover the chicken loosely with foil.Keep the vegetables warm.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404765,
+                      "name": "aluminum foil",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 8,
+                  "step": "Place the roasting pan over heat on the stove top and add the water and stock or white wine.Bring liquid to a boil, stirring and scraping to deglaze the pan.",
+                  "ingredients": [
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404629,
+                      "name": "roasting pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+                    },
+                    {
+                      "id": 404794,
+                      "name": "stove",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 9,
+                  "step": "Pour the liquid into a measuring cup, degreasing as best you can.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404766,
+                      "name": "measuring cup",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/measuring-cup.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 10,
+                  "step": "Pour about 1/2 of a cup of the liquid into a sauceboat and keep warm.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 11,
+                  "step": "Add, if necessary, water to the remaining de-glazing liquid so that you have one cup.",
+                  "ingredients": [
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 12,
+                  "step": "Combine the rice, one cup of water, one cup of deglazing liquid and the salt in a medium saucepan.Bring to a boil over high heat.As soon as the rice boils, reduce the heat to low, cover and cook the rice till done, about 18 minutes.",
+                  "ingredients": [
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    },
+                    {
+                      "id": 20444,
+                      "name": "rice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/rice-white-uncooked.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404669,
+                      "name": "sauce pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+                    }
+                  ],
+                  "length": {
+                    "number": 18,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 13,
+                  "step": "Remove from heat and fold rice together with 1 and 1/2 tablespoons of the yogurt and the reserved vegetables.Season to taste with salt and pepper.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 1116,
+                      "name": "yogurt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-cream.jpg"
+                    },
+                    {
+                      "id": 20444,
+                      "name": "rice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/rice-white-uncooked.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 14,
+                  "step": "Combine the remaining yogurt with the pan juices in the sauce boat.Carve the chicken and serve with rice, passing the sauceboat for those who need a little extra liquid.",
+                  "ingredients": [
+                    {
+                      "id": 1116,
+                      "name": "yogurt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-cream.jpg"
+                    },
+                    {
+                      "id": 20444,
+                      "name": "rice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/rice-white-uncooked.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 11,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 10,
+          "sourceUrl": "http://theshiksa.com/2011/01/01/my-blog-iversary-chicken-noodles/",
+          "spoonacularSourceUrl": "https://spoonacular.com/swedish-chicken-and-noodles-195336",
+          "aggregateLikes": 261,
+          "spoonacularScore": 88,
+          "healthScore": 21,
+          "creditText": "The Shiksa in the Kitchen",
+          "sourceName": "The Shiksa in the Kitchen",
+          "pricePerServing": 116.03,
+          "id": 195336,
+          "title": "Swedish Chicken and Noodles",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/Swedish-Chicken-and-Noodles-195336.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "scandinavian",
+            "european",
+            "nordic"
+          ],
+          "dishTypes": [
+            "side dish",
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Save Recipe",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 2,
+                  "step": "Print Recipe",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Swedish Chicken and Noodles",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Ingredients4 cups flour6 eggs1  chicken (about 4 lbs)4 stalks of celery, roughly chopped including leaves1 onion, peeled and roughly chopped",
+                  "ingredients": [
+                    {
+                      "id": 11143,
+                      "name": "celery",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/celery.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 5,
+                  "step": "Salt and pepper",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 6,
+                  "step": "Optional Ingredients",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Frozen green peas",
+                  "ingredients": [
+                    {
+                      "id": 11304,
+                      "name": "green peas",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/peas.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 8,
+                  "step": "Mashed potatoes",
+                  "ingredients": [
+                    {
+                      "id": 11362,
+                      "name": "potato",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/potatoes-yukon-gold.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 9,
+                  "step": "You will also need",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 10,
+                  "step": "Mixing bowl, sifter, rolling pin, parchment paper, large stockpot",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404770,
+                      "name": "baking paper",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/baking-paper.jpg"
+                    },
+                    {
+                      "id": 405907,
+                      "name": "mixing bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+                    },
+                    {
+                      "id": 404746,
+                      "name": "rolling pin",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/rolling-pin.jpg"
+                    },
+                    {
+                      "id": 404752,
+                      "name": "pot",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+                    },
+                    {
+                      "id": 404708,
+                      "name": "sifter",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/sifter.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 11,
+                  "step": "Servings: 8-10 servings",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 12,
+                  "step": "Kosher Key: Meat",
+                  "ingredients": [
+                    {
+                      "id": 1015006,
+                      "name": "meat",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+                    }
+                  ],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 14,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 10,
+          "cookingMinutes": 50,
+          "sourceUrl": "http://www.food.com/recipe/chicken-ghiveci-romanian-braised-chicken-297592",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-ghiveci-romanian-braised-chicken-143969",
+          "aggregateLikes": 4,
+          "spoonacularScore": 78,
+          "healthScore": 34,
+          "creditText": "Food.com",
+          "sourceName": "Food.com",
+          "pricePerServing": 213.04,
+          "id": 143969,
+          "title": "Chicken Ghiveci (Romanian Braised Chicken)",
+          "readyInMinutes": 60,
+          "image": "https://spoonacular.com/recipeImages/chicken-ghiveci-2-143969.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "heat oil in large wok or casserole pan until hot enough to cook.add onions and garlic stir frying 1 min until soft.add bell pepper and stir fry for 1 minuteadd chicken cut ups and brown both sides 10-13 minutes.add rest of ingredients, stir fry for 1 min then cover and cook for 40-45 mins until the chicken looks cooked and there's no blood when pierced by a fork near the bones.garnish with thyme or rosemary (optional) and serve with bread or rice.",
+                  "ingredients": [
+                    {
+                      "id": 10211821,
+                      "name": "bell pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/bell-pepper-orange.png"
+                    },
+                    {
+                      "id": 2036,
+                      "name": "rosemary",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/rosemary.jpg"
+                    },
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404635,
+                      "name": "casserole dish",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/casserole-dish.png"
+                    },
+                    {
+                      "id": 404666,
+                      "name": "wok",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/wok.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 60,
+                    "unit": "minutes"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 17,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 6,
+          "preparationMinutes": 10,
+          "cookingMinutes": 60,
+          "sourceUrl": "http://www.tasteofhome.com/Recipes/hungarian-chicken",
+          "spoonacularSourceUrl": "https://spoonacular.com/hungarian-chicken-438355",
+          "aggregateLikes": 0,
+          "spoonacularScore": 39,
+          "healthScore": 8,
+          "creditText": "Taste of Home",
+          "sourceName": "Taste of Home",
+          "pricePerServing": 136.49,
+          "id": 438355,
+          "title": "Hungarian Chicken",
+          "readyInMinutes": 70,
+          "image": "https://spoonacular.com/recipeImages/Hungarian-Chicken-438355.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Combine flour, salt and pepper in a large resealable plastic bag.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 221671,
+                      "name": "ziploc bags",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-bag.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Add chicken, a few pieces at a time, and shake to coat.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Melt 1 tablespoon butter in a large skillet.",
+                  "ingredients": [
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 4,
+                  "step": "Add onion and cook until tender.",
+                  "ingredients": [
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 5,
+                  "step": "Remove from pan and set aside. In the same skillet, melt remaining butter and brown chicken on all sides.",
+                  "ingredients": [
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 6,
+                  "step": "Combine tomato juice, paprika, sugar and salt; add to chicken.",
+                  "ingredients": [
+                    {
+                      "id": 11886,
+                      "name": "tomato juice",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/tomato-juice.jpg"
+                    },
+                    {
+                      "id": 2028,
+                      "name": "paprika",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/paprika.jpg"
+                    },
+                    {
+                      "id": 19335,
+                      "name": "sugar",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sugar-cubes.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Add bay leaf, broth and onion. Cover and simmer 45-60 minutes or until chicken is tender.",
+                  "ingredients": [
+                    {
+                      "id": 2004,
+                      "name": "bay leaves",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/bay-leaves.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [],
+                  "length": {
+                    "number": 60,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 8,
+                  "step": "Remove chicken to a platter; keep warm. Reduce heat to low, remove bay leaf and stir in sour cream.",
+                  "ingredients": [
+                    {
+                      "id": 1056,
+                      "name": "sour cream",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sour-cream.jpg"
+                    },
+                    {
+                      "id": 2004,
+                      "name": "bay leaves",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/bay-leaves.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 9,
+                  "step": "Heat through (do not boil).",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 10,
+                  "step": "Pour sauce over chicken.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 11,
+                  "step": "Serve with noodles.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 20,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 6,
+          "preparationMinutes": 20,
+          "cookingMinutes": 90,
+          "sourceUrl": "http://www.tasteofhome.com/Recipes/hungarian-chicken-paprikash",
+          "spoonacularSourceUrl": "https://spoonacular.com/hungarian-chicken-paprikash-431961",
+          "aggregateLikes": 0,
+          "spoonacularScore": 48,
+          "healthScore": 11,
+          "creditText": "Taste of Home",
+          "sourceName": "Taste of Home",
+          "pricePerServing": 128.9,
+          "id": 431961,
+          "title": "Hungarian Chicken Paprikash",
+          "readyInMinutes": 110,
+          "image": "https://spoonacular.com/recipeImages/Hungarian-Chicken-Paprikash-431961.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "In a large skillet, saute onion in butter until tender. Sprinkle chicken with paprika, salt and pepper; place in an ungreased roasting pan. Spoon onion mixture over chicken.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 2028,
+                      "name": "paprika",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/paprika.jpg"
+                    },
+                    {
+                      "id": 1001,
+                      "name": "butter",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404629,
+                      "name": "roasting pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Add hot water. Cover and bake at 350° for 1-1/2 hours or until chicken juices run clear.",
+                  "ingredients": [
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 3,
+                  "step": "Remove chicken and keep warm. In a small bowl, combine cornstarch and cold water until smooth. Gradually add to pan juices with onion. Bring to a boil over medium heat; cook and stir for 2 minutes or until thickened.",
+                  "ingredients": [
+                    {
+                      "id": 20027,
+                      "name": "corn starch",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/white-powder.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 14412,
+                      "name": "water",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/water.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 2,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 4,
+                  "step": "Remove from the heat. Stir in sour cream.",
+                  "ingredients": [
+                    {
+                      "id": 1056,
+                      "name": "sour cream",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sour-cream.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 5,
+                  "step": "Serve with chicken.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 7,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 5,
+          "cookingMinutes": 25,
+          "sourceUrl": "http://www.food.com/recipe/pierogi-chicken-supper-105028",
+          "spoonacularSourceUrl": "https://spoonacular.com/pierogi-chicken-supper-107394",
+          "aggregateLikes": 5,
+          "spoonacularScore": 49,
+          "healthScore": 8,
+          "creditText": "Food.com",
+          "sourceName": "Food.com",
+          "pricePerServing": 133.77,
+          "id": 107394,
+          "title": "Pierogi Chicken Supper",
+          "readyInMinutes": 30,
+          "image": "https://spoonacular.com/recipeImages/pierogi-chicken-supper-2-107394.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": []
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": true,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 18,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 10,
+          "cookingMinutes": 35,
+          "sourceUrl": "http://www.simplyrecipes.com/recipes/chicken_paprikash/",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-paprikash-247107",
+          "aggregateLikes": 3430,
+          "spoonacularScore": 83,
+          "healthScore": 15,
+          "creditText": "Simply Recipes",
+          "sourceName": "Simply Recipes",
+          "pricePerServing": 165.71,
+          "id": 247107,
+          "title": "Chicken Paprikash",
+          "readyInMinutes": 45,
+          "image": "https://spoonacular.com/recipeImages/Chicken-Paprikash-247107.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "1 Salt the chicken pieces well and let them sit at room temperature while you cut the onions.  Slice the onions lengthwise (top to root).2",
+                  "ingredients": [
+                    {
+                      "id": 1005006,
+                      "name": "chicken pieces",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-parts.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 2,
+                  "step": "Heat a large sauté pan over medium-high heat and melt the butter. When the butter is hot, pat the chicken pieces dry with paper towels and place them skin-side down in the pan.",
+                  "ingredients": [
+                    {
+                      "id": 1005006,
+                      "name": "chicken pieces",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-parts.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 405895,
+                      "name": "paper towels",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/paper-towels.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "step": "Let the chicken pieces cook 4-5 minutes on one side, until well browned, then turn them over and let them cook 2-3 minutes on the other side. (Take care when turning so as not to tear the skin if any is sticking to the pan.)",
+                  "ingredients": [
+                    {
+                      "id": 1005006,
+                      "name": "chicken pieces",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-parts.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 8,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 4,
+                  "step": "Remove the chicken from the pan to a bowl, set aside.3",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 5,
+                  "step": "Add the sliced onions to the sauté pan and cook them, stirring occasionally, scraping up the browned bits from the chicken, until lightly browned, about 7 minutes. 4",
+                  "ingredients": [
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 7,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 6,
+                  "step": "Add the paprika and some black pepper to the onions and stir to combine.",
+                  "ingredients": [
+                    {
+                      "id": 1002030,
+                      "name": "black pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/pepper.jpg"
+                    },
+                    {
+                      "id": 2028,
+                      "name": "paprika",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/paprika.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Add the chicken broth, again scraping up the browned bits from the bottom of the pan, and then nestle the chicken pieces into the pan, on top of the onions. Cover and cook on a low simmer for 20-25 minutes (depending on the size of your chicken pieces). When the chicken is cooked through (at least 165° if you use a thermometer, or if the juices run clear, not pink when the thickest part of the thigh is pierced with a knife) remove the pan from the heat. (If you want, you can also keep cooking the chicken until it begins to fall off the bone, which may take another 30 minutes or so.)5 When the chicken is done to your taste, remove the chicken from the pan. Allow the pan to cool for a minute and then slowly stir in the sour cream and add salt to taste.  If the sour cream cools the sauce too much, turn the heat back on just enough to warm it through.",
+                  "ingredients": [
+                    {
+                      "id": 1005006,
+                      "name": "chicken pieces",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/chicken-parts.jpg"
+                    },
+                    {
+                      "id": 6194,
+                      "name": "chicken broth",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/broth.jpg"
+                    },
+                    {
+                      "id": 1056,
+                      "name": "sour cream",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sour-cream.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    },
+                    {
+                      "id": 2047,
+                      "name": "salt",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404789,
+                      "name": "kitchen thermometer",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/food-thermometer.jpg"
+                    },
+                    {
+                      "id": 404745,
+                      "name": "knife",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/chefs-knife.jpg"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 55,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 8,
+                  "step": "Add the chicken back to the pan and coat with the sauce.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 9,
+                  "step": "Serve with dumplings, rice, egg noodles or potatoes. (If cooking gluten-free, serve with rice, potatoes or gluten-free noodles or dumplings.)",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "veryHealthy": false,
+          "cheap": false,
+          "veryPopular": false,
+          "sustainable": false,
+          "weightWatcherSmartPoints": 15,
+          "gaps": "no",
+          "lowFodmap": false,
+          "ketogenic": false,
+          "whole30": false,
+          "servings": 4,
+          "preparationMinutes": 10,
+          "cookingMinutes": 80,
+          "sourceUrl": "http://diethood.com/2013/03/31/chicken-paprikash/",
+          "spoonacularSourceUrl": "https://spoonacular.com/chicken-paprikash-566629",
+          "aggregateLikes": 90,
+          "spoonacularScore": 86,
+          "healthScore": 27,
+          "creditText": "Diethood",
+          "sourceName": "Diethood",
+          "pricePerServing": 298.4,
+          "id": 566629,
+          "title": "Chicken Paprikash",
+          "readyInMinutes": 90,
+          "image": "https://spoonacular.com/recipeImages/Chicken-Paprikash-566629.jpg",
+          "imageType": "jpg",
+          "cuisines": [
+            "european",
+            "eastern european"
+          ],
+          "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+          ],
+          "analyzedInstructions": [
+            {
+              "name": "",
+              "steps": [
+                {
+                  "number": 1,
+                  "step": "Heat olive oil in a large skillet.In a large dish or bowl, I use a Pyrex 8x8, whisk together the flour, paprika, salt and pepper.",
+                  "ingredients": [
+                    {
+                      "id": 1102047,
+                      "name": "salt and pepper",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/salt-and-pepper.jpg"
+                    },
+                    {
+                      "id": 4053,
+                      "name": "olive oil",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg"
+                    },
+                    {
+                      "id": 2028,
+                      "name": "paprika",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/paprika.jpg"
+                    },
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    },
+                    {
+                      "id": 404661,
+                      "name": "whisk",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+                    },
+                    {
+                      "id": 404783,
+                      "name": "bowl",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "step": "Place the chicken pieces in the flour mixture and toss until evenly coated; shake off any excess and add to hot oil.Cook over medium heat until browned; about 4 to 5 minutes on each side.",
+                  "ingredients": [
+                    {
+                      "id": 20081,
+                      "name": "all purpose flour",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+                    }
+                  ],
+                  "equipment": [],
+                  "length": {
+                    "number": 4,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 3,
+                  "step": "Remove chicken and set aside.",
+                  "ingredients": [],
+                  "equipment": []
+                },
+                {
+                  "number": 4,
+                  "step": "Add the sliced onions and carrots to the skillet.Stir in parsley and thyme, and cook for 5 minutes, or until onions are soft.",
+                  "ingredients": [
+                    {
+                      "id": 11124,
+                      "name": "carrot",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/carrots.jpg"
+                    },
+                    {
+                      "id": 11297,
+                      "name": "parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    },
+                    {
+                      "id": 11282,
+                      "name": "onion",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ],
+                  "length": {
+                    "number": 5,
+                    "unit": "minutes"
+                  }
+                },
+                {
+                  "number": 5,
+                  "step": "Add garlic and continue to cook for a minute, or until fragrant.",
+                  "ingredients": [
+                    {
+                      "id": 11215,
+                      "name": "garlic",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 6,
+                  "step": "Mix in the tomatoes.",
+                  "ingredients": [
+                    {
+                      "id": 11529,
+                      "name": "tomato",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/tomato.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 7,
+                  "step": "Pour in wine and chicken broth, and bring to a boil.Return the chicken pieces to the pan.Turn down the heat to low, cover, and cook for 1 hour. Divide the cooked egg noodles among 4 to 6 dinner plates.",
+                  "ingredients": [
+                    {
+                      "id": 20410,
+                      "name": "cooked egg noodles",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg-noodles.jpg"
+                    },
+                    {
+                      "id": 6194,
+                      "name": "chicken broth",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/broth.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 8,
+                  "step": "Remove the chicken from the pan and set on top of egg noddles.",
+                  "ingredients": [],
+                  "equipment": [
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 9,
+                  "step": "Whisk the sour cream into the pan and continue to whisk until thoroughly combined; remove from heat.Spoon the sauce over the chicken and noodles.",
+                  "ingredients": [
+                    {
+                      "id": 1056,
+                      "name": "sour cream",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/sour-cream.jpg"
+                    }
+                  ],
+                  "equipment": [
+                    {
+                      "id": 404661,
+                      "name": "whisk",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+                    },
+                    {
+                      "id": 404645,
+                      "name": "frying pan",
+                      "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+                    }
+                  ]
+                },
+                {
+                  "number": 10,
+                  "step": "Garnish with parsley.",
+                  "ingredients": [
+                    {
+                      "id": 11297,
+                      "name": "parsley",
+                      "image": "https://spoonacular.com/cdn/ingredients_100x100/parsley.jpg"
+                    }
+                  ],
+                  "equipment": []
+                },
+                {
+                  "number": 11,
+                  "step": "Serve.",
+                  "ingredients": [],
+                  "equipment": []
+                }
+              ]
+            }
+          ]
         }
 
 
