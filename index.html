@@ -20,7 +20,7 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo left">Eatertain.Me</a>
+        <a href="index.html" class="brand-logo left hover-glow">Eatertain.Me</a>
         <a href="#" data-activates="hamburger-menu" class="button-collapse right"><i class="material-icons md-light">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li class=""><a href="about.html">What is Eatertain.Me?</a></li>
@@ -89,10 +89,28 @@
       </div><!-- closes row -->
 
       <div id="results" class="row">
-        <h2>Here's what we found:</h2>
-        <div class="col " id="recipe0">
-          <iframe id="youtube-playlist1" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
+        <h2 class="hover-glow center" style="font-size: xx-large">Here's what we found:</h2>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div id="recipe0card" class="card">
+              <div class="card-image">
+                <img id="recipe0img" src="images/sample-1.jpg">
+                <span id="recipe0title" class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p id="recipe0content">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <iframe id="youtube-playlist1" type="text/html" width="20" height="20" frameborder="0" enablejsapi="1"></iframe>
+              </div>
+            </div>
+          </div>
         </div>
+
+
+
 
         <div class="results" id="recipe1">
           <iframe id="youtube-playlist2" type="text/html" width="200" height="200" frameborder="0" enablejsapi="1"></iframe>
