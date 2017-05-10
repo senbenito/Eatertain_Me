@@ -70,9 +70,38 @@ h2{
   font-size: xx-large;
 }
 
+.card span.card-title, .card h2{
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px white;
+}
+
+.card-content a{
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+  text-shadow: 1px 1px darkslateblue;
+}
+.card-content .card-title{
+  max-height: 8vh;
+  min-height: 8vh;
+}
+
+
+.recipe-content{
+  font-size: large;
+}
+
+.dataDigit{
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  /*text-decoration: underline;*/
+  color: #B6FF00;
+  text-shadow: 1px 1px white;
+}
+
 p.card-title{
   color: white;
   font-size: small !important;
+  text-shadow: unset;
 }
 
 .queue{

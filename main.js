@@ -24,7 +24,8 @@ $(document).ready(function() {
 
       recipeImage.attr("src", `${data.results[i].image}`);
       recipeTitle.html(`${data.results[i].title}`);
-      recipeContent.html(`Ready in ${data.results[i].readyInMinutes} minutes.<br> Makes ${data.results[i].servings} servings.`);
+      recipeContent.html(`Ready in <span class="dataDigit">${data.results[i].readyInMinutes}</span> minutes
+      <br>Serves <span class="dataDigit">${data.results[i].servings}</span>`);
       recipeMethod.html(`${data.results[i].analyzedInstructions}`);
       recipeLink.attr("href", `${data.results[i].sourceUrl}`);
 
@@ -149,19 +150,21 @@ $(document).ready(function() {
     var cuisine = $("#cuisine").val() || [];
     console.log(cuisine);
 
-    var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`);
+    fillResults(chicken); //offline mode
 
-    $xhr.done(function(data) {
-      if ($xhr.status !== 200) {
-        return;
-      }
-      console.log(data);
-      fillResults(data);
-    });//closes $xhr.done
-
-    $xhr.fail(function() {
-      alert("AJAX failed!");
-    });//closes $xhr.fail
+    // var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`);
+    //
+    // $xhr.done(function(data) {
+    //   if ($xhr.status !== 200) {
+    //     return;
+    //   }
+    //   console.log(data);
+    //   fillResults(data);
+    // });//closes $xhr.done
+    //
+    // $xhr.fail(function() {
+    //   alert("AJAX failed!");
+    // });//closes $xhr.fail
 
   }); //closes #searchButton on('click function
 
