@@ -37,11 +37,12 @@ $(document).ready(function() {
     function fillResults(data) {
       console.log('filling results');
       var cuisinePlaylist = [];
+      var recipeURL= [];
 
       for (var i = 0; i < 3; i++) {
         // var recipeCard = $(`#recipe${i}card`);
         var recipeImage = $(`#recipe${i}img`);
-        var recipeTitle = $(`#recipe${i}title`);
+        var recipeTitle = $(`.recipe${i}title`);
         var recipeContent = $(`#recipe${i}content`);
         var recipeMethod = $(`#recipe${i}method`);
         var recipeLink = $(`#recipe${i}link`);
@@ -49,8 +50,9 @@ $(document).ready(function() {
         recipeImage.attr("src", `${data.results[i].image}`);
         recipeTitle.html(`${data.results[i].title}`);
         recipeContent.html(`Ready in ${data.results[i].readyInMinutes} minutes.<br> Makes ${data.results[i].servings} servings.`);
-
-        // <p><a href="${data.results[i].sourceUrl}">Click here for recipe link!</a></p>
+        recipeMethod.html(`${data.results[i].analyzedInstructions}`);
+        recipeLink.attr("href", `${data.results[i].sourceUrl}`);
+        recipeURL.push(data.results[i].sourceUrl);
 
         switch (data.results[i].cuisines[0]) {
           case "african":
@@ -163,6 +165,17 @@ $(document).ready(function() {
       $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
       $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
       $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
+
+      $("#recipe0Link").on("click", function openRequestedPopup() {
+        windowObjectReference = window.open(recipeURL[0], "Eatertain.Me_0");
+      });
+      $("#recipe1Link").on("click", function openRequestedPopup() {
+        windowObjectReference = window.open(recipeURL[1], "Eatertain.Me_1");
+      });
+      $("#recipe2Link").on("click", function openRequestedPopup() {
+        windowObjectReference = window.open(recipeURL[2], "Eatertain.Me_2");
+      });
+
     }//closes fillResults
 
   }); //closes on('click function
