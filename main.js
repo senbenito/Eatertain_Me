@@ -11,6 +11,21 @@ $(document).ready(function() {
   var results = [];
   $('#results').hide();
 
+  function extractMethod(array){
+    var orderedList = $("<ol>");
+    if (array.length === 0){
+      return `Looks like this wasn't uploaded...<br>Please click the link to visit the page directly.`;
+    } else {
+      var innerArray = array[0].steps;
+      for (let i=0; i<innerArray.length; i++){
+        var listItem = $("<li>");
+        listItem.html(innerArray[i].step);
+        listItem.appendTo(orderedList);
+      }//closes for loop
+      return orderedList[0];
+    }//closes else
+  }//closes extractMethod
+
   function fillResults(data) {
     console.log('filling results');
     var cuisinePlaylist = [];
@@ -23,10 +38,10 @@ $(document).ready(function() {
       var recipeLink = $(`#recipe${i}link`);
 
       recipeImage.attr("src", `${data.results[i].image}`);
-      recipeTitle.html(`${data.results[i].title}`);
+      recipeTitle.append(data.results[i].title);
       recipeContent.html(`Ready in <span class="dataDigit">${data.results[i].readyInMinutes}</span> minutes
       <br>Serves <span class="dataDigit">${data.results[i].servings}</span>`);
-      recipeMethod.html(`${data.results[i].analyzedInstructions}`);
+      recipeMethod.append(extractMethod(data.results[i].analyzedInstructions));
       recipeLink.attr("href", `${data.results[i].sourceUrl}`);
 
       switch (data.results[i].cuisines[0]) {
