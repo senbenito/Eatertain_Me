@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   console.log('Ready to go!');
+  $('.modal').modal();
   $('select').material_select();
   $(".button-collapse").sideNav({
     menuWidth: 300,
@@ -31,7 +32,7 @@ $(document).ready(function() {
     //   alert("AJAX failed!");
     // });//closes $xhr.fail
 
-    // fillResults(chicken); //use this data to access data object below for call-free testing
+    fillResults(chicken); //use this data to access data object below for call-free testing
 
     function fillResults(data) {
       console.log('filling results');
@@ -42,6 +43,8 @@ $(document).ready(function() {
         var recipeImage = $(`#recipe${i}img`);
         var recipeTitle = $(`#recipe${i}title`);
         var recipeContent = $(`#recipe${i}content`);
+        var recipeMethod = $(`#recipe${i}method`);
+        var recipeLink = $(`#recipe${i}link`);
 
         recipeImage.attr("src", `${data.results[i].image}`);
         recipeTitle.html(`${data.results[i].title}`);

@@ -8,6 +8,7 @@ body{
 img{
   height: auto;
   width: 95%;
+  max-height: 203px;
 }
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
@@ -63,6 +64,19 @@ h1:hover {
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+p.card-title{
+  color: white;
+  font-size: small !important;
+}
+
+.queue{
+  color: #ee6e73;
 }
 
 .btn{
