@@ -70,6 +70,10 @@ h2{
   font-size: xx-large;
 }
 
+.card-image{
+  height: 20vh
+}
+
 .card span.card-title, .card h2{
   font-family: 'Anton', sans-serif;
   text-shadow: 1px 1px white;
@@ -80,11 +84,20 @@ h2{
   font-size: large;
   text-shadow: 1px 1px darkslateblue;
 }
+
 .card-content .card-title{
-  max-height: 8vh;
-  min-height: 8vh;
+  font-size: x-large;
+  height: 10vh;
+  overflow: hidden;
 }
 
+.card-action{
+  height: 10vh;
+}
+
+.card-action{
+  text-shadow: 1px 1px white;
+}
 
 .recipe-content{
   font-size: large;
