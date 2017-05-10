@@ -18,7 +18,7 @@ $(document).ready(function() {
     console.log(cuisine);
 
     // var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`);
-
+    //
     // $xhr.done(function(data) {
     //   if ($xhr.status !== 200) {
     //     return;
@@ -31,7 +31,7 @@ $(document).ready(function() {
     //   alert("AJAX failed!");
     // });//closes $xhr.fail
 
-    fillResults(chicken); //use this data to access data object below for call-free testing
+    // fillResults(chicken); //use this data to access data object below for call-free testing
 
     function fillResults(data) {
       console.log('filling results');
@@ -164,4 +164,7 @@ $(document).ready(function() {
 
   }); //closes on('click function
 
+  var chickenParse = sessionStorage.getItem("chicken");
+  var chicken = JSON.parse(chickenParse);
+  console.log(chicken);
 }); //document.ready closing
