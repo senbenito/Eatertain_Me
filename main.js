@@ -28,12 +28,6 @@ $(document).ready(function() {
     });
   }
 
-  $('#chickenButton').on('click', function() {
-    console.log("chicken clicked");
-    fillResults(chicken);
-    $('#results').show();
-    });
-
   function extractMethod(array){
     var orderedList = $("<ol>");
     if (array.length === 0){
@@ -53,7 +47,7 @@ $(document).ready(function() {
     console.log('filling results');
     var cuisinePlaylist = [];
 
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 6; i++) {
       var recipeImage = $(`#recipe${i}img`);
       var recipeTitle = $(`.recipe${i}title`);
       var recipeContent = $(`#recipe${i}content`);
@@ -178,7 +172,16 @@ $(document).ready(function() {
     $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
     $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
     $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
+    $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[3]}`);
+    $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[4]}`);
+    $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[5]}`);
   }//closes fillResults
+
+  $('#chickenButton').on('click', function() {
+    console.log("chicken clicked");
+    fillResults(chicken);
+    $('#results').show();
+  });
 
   $('#searchButton').on('click', function(event) {
     event.preventDefault();
@@ -188,7 +191,7 @@ $(document).ready(function() {
     var cuisine = $("#cuisine").val() || [];
     console.log(cuisine);
 
-    fillResults(chicken); //offline mode
+    fillResults(chicken);//offline mode
 
     // var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`);
     //
@@ -205,14 +208,6 @@ $(document).ready(function() {
     // });//closes $xhr.fail
 
   }); //closes #searchButton on('click function
-
-  // $('#chickenButton').on('click', function(event){
-  //   console.log("Chicken Caught!");
-  //   event.preventDefault();
-  //   $('#results').show();
-  //   fillResults(chicken);
-  //
-  // }); //closes #chickenButton on('click function
 
   var chickenParse = sessionStorage.getItem("chicken");
   var chicken = JSON.parse(chickenParse);

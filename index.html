@@ -43,7 +43,7 @@
   <div class="main">
     <main>
 
-<img id="chickenButton" src="http://orig09.deviantart.net/c283/f/2014/021/5/2/chicken_caw_animation_by_captaintoog-d7338wq.gif">
+<a href="#searchButton"><img id="chickenButton" src="http://orig09.deviantart.net/c283/f/2014/021/5/2/chicken_caw_animation_by_captaintoog-d7338wq.gif"></a>
 
 
       <div class="row" id="userInterface">
@@ -85,11 +85,10 @@
         <div class="col m1"></div>
 
         <div class="col s12 center">
-          <p><button id="searchButton" class="waves-effect waves-light btn">Click to find out what's for dinner!</button></p>
+          <a href="#showThis"><p><button id="searchButton" class="waves-effect waves-light btn">Click to find out what's for dinner!</button></p></a>
         </div>
 
       </div><!-- closes row -->
-
       <div id="results" class="row">
         <h2 class="hover-glow center">Here's what we found:</h2>
 
@@ -160,8 +159,79 @@
               </div>
             </div>
           </div><!-- closes recipe2card -->
+        </div><!-- closes card row1 -->
 
-        </div><!-- closes card rows -->
+  <div id="showThis"></div>
+
+        <div class="row">
+
+          <div class="col s12 m4">
+              <div id="recipe3card" class="card large grey">
+              <div class="card-image">
+                <img id="recipe3img">
+              </div>
+              <div class="card-content center">
+                <a href="#modal3"><span class="recipe3title card-title" style="color: #ee6e73;"></span></a>
+                <p id="recipe3content" class="recipe-content">Recipe Info</p>
+              </div>
+              <div class="card-action">
+                <a href="#modal3"><i class="medium material-icons left">receipt</i></a>
+                <span class="activator"><i class="medium material-icons right queue">queue_music</i></span>
+              </div>
+              <div class="card-reveal grey">
+                <h2 class="flow-text center">Music makes your meal<br> Eatertain-ing!</h2>
+                <iframe id="youtube-playlist3" type="text/html" width="100%" height="auto" frameborder="0" enablejsapi="1"></iframe>
+                <p class="card-title right">Click here to get back to your recipe...<br>
+                Don't worry: the music shall play on!<i class="material-icons right">close</i></p>
+              </div>
+            </div>
+          </div><!-- closes recipe3card -->
+
+          <div class="col s12 m4">
+            <div id="recipe4card" class="card large grey">
+              <div class="card-image">
+                <img id="recipe4img">
+              </div>
+              <div class="card-content center">
+                <a href="#modal4"><span class="recipe4title card-title" style="color: #ee6e73;"></span></a>
+                <p id="recipe4content" class="recipe-content">Recipe Info</p>
+              </div>
+              <div class="card-action">
+                <a href="#modal4"><i class="medium material-icons left">receipt</i></a>
+                <span class="activator"><i class="medium material-icons right queue">queue_music</i></span>
+              </div>
+              <div class="card-reveal grey">
+                <h2 class="flow-text center">Music makes your meal<br> Eatertain-ing!</h2>
+                <iframe id="youtube-playlist4" type="text/html" width="100%" height="auto" frameborder="0" enablejsapi="1"></iframe>
+                <p class="card-title right">Click here to get back to your recipe...<br>
+                Don't worry: the music shall play on!<i class="material-icons right">close</i></p>
+              </div>
+            </div>
+          </div><!-- closes recipe4card -->
+
+          <div class="col s12 m4">
+            <div id="recipe5card" class="card large grey">
+              <div class="card-image">
+                <img id="recipe5img">
+              </div>
+              <div class="card-content center">
+                <a href="#modal5"><span class="recipe5title card-title " style="color: #ee6e73;"></span></a>
+                <p id="recipe5content" class="recipe-content">Recipe Info</p>
+              </div>
+              <div class="card-action">
+                <a href="#modal5"><i class=" medium material-icons left">receipt</i></a>
+                <span class="activator"><i class="medium material-icons right queue">queue_music</i></span>
+              </div>
+              <div class="card-reveal grey">
+                <h2 class="flow-text center">Music makes your meal<br> Eatertain-ing!</h2>
+                <iframe id="youtube-playlist5" type="text/html" width="100%" height="auto" frameborder="0" enablejsapi="1"></iframe>
+                <p class="card-title right">Click here to get back to your recipe...<br>
+                Don't worry: the music shall play on!<i class="material-icons right">close</i></p>
+              </div>
+            </div>
+          </div><!-- closes recipe5card -->
+
+        </div><!-- closes card row2 -->
 
         <div id="modal0" class="modal modal-fixed-footer">
           <div class="modal-content">
@@ -181,7 +251,7 @@
           <div class="modal-footer">
             <a id="recipe1link" href="#" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Take me to the page</a>
           </div>
-        </div><!-- closes modal0 -->
+        </div><!-- closes modal1 -->
 
         <div id="modal2" class="modal modal-fixed-footer">
           <div class="modal-content">
@@ -191,7 +261,37 @@
           <div class="modal-footer">
             <a id="recipe2link" href="#" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Take me to the page</a>
           </div>
-        </div><!-- closes modal0 -->
+        </div><!-- closes modal2 -->
+
+        <div id="modal3" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="recipe3title"><i class="material-icons right modal-close">close</i></h4>
+            <p id="recipe3method">Here's what you do:</p>
+          </div>
+          <div class="modal-footer">
+            <a id="recipe3link" href="#" target="_blank" class="modal-action waves-effect waves-green btn-flat">Take me to the page</a>
+          </div>
+        </div><!-- closes modal3 -->
+
+        <div id="modal4" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="recipe4title"><i class="material-icons right modal-close">close</i></h4>
+            <p id="recipe4method">Here's what you do:</p>
+          </div>
+          <div class="modal-footer">
+            <a id="recipe4link" href="#" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Take me to the page</a>
+          </div>
+        </div><!-- closes modal4 -->
+
+        <div id="modal5" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="recipe5title"><i class="material-icons right modal-close">close</i></h4>
+            <p id="recipe5method">Here's what you do:</p>
+          </div>
+          <div class="modal-footer">
+            <a id="recipe5link" href="#" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Take me to the page</a>
+          </div>
+        </div><!-- closes modal5 -->
 
       </div><!-- closes results -->
     </div><!-- closes main div -->

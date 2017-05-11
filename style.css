@@ -10,8 +10,8 @@ body{
   width: 15vw;
   position: absolute;
   z-index: 3;
-  right: 0px;
-  bottom: 50px;
+  right: 0;
+  bottom: 5vh;
 }
 
 .modal .modal-content{
