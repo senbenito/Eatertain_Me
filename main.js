@@ -10,17 +10,12 @@ $(document).ready(function() {
     });
   var results = [];
   $('#results').hide();
+  $('#chickenButton').animate({"right": "+=700px"}, 6000, "easeInBack");
 
   $('#chickenButton').on('click', function() {
     console.log("chicken clicked");
-    // $('#chickenButton').attr("style", "right:10px;");
-
-    let start = Date.now();
-    let timer = setInterval(function() {
-      let timePassed = Date.now() - start;
-      $('#chickenButton').attr("style", "left:10px;");
-        if (timePassed > 2000) clearInterval(timer);
-      }, 20);
+    fillResults(chicken);
+    $('#results').show();
     });
 
   function extractMethod(array){
