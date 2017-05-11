@@ -73,7 +73,7 @@ h2{
 }
 
 .card-image{
-  height: 20vh
+  height: 30vh
 }
 
 .card span.card-title, .card h2{
@@ -162,28 +162,31 @@ p.card-title{
 }
 
 img.vertical{
-  height: 30px;
+  min-height: 25px;
+  height: 5vh;
   width: auto;
 }
 
 img.square{
   height: auto;
-  width: 30px;
+  width: 4vw;
+  min-width: 60px;
 }
 
 img.horizontal{
   height: auto;
-  width: 50px;
+  width: 5vw;
+  min-width: 75px;
 }
 
 .galvanize{
-  height: 60px;
-  width: auto;
+  height: auto;
+  width: 20vw;
 }
 
 .github{
-  height: 75px;
-  width: auto;
+  height: auto;
+  width: 15vw;
 }
 
 .card-content.pink-text{
