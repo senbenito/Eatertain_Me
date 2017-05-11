@@ -81,11 +81,11 @@ h2{
   text-shadow: 1px 1px white;
 }
 
-.card-content a{
+/*.card-content a{
   font-family: 'Anton', sans-serif;
   font-size: large;
   text-shadow: 1px 1px darkslateblue;
-}
+}*/
 
 .card-content .card-title{
   font-size: x-large;
@@ -151,6 +151,48 @@ p.card-title{
 
 .card-content{
   color: white;
+}
+
+.card.small .card-content{
+  height: 25vh;
+}
+
+.card.small .card-tabs{
+  height: 12vh;
+}
+
+img.vertical{
+  height: 30px;
+  width: auto;
+}
+
+img.square{
+  height: auto;
+  width: 30px;
+}
+
+img.horizontal{
+  height: auto;
+  width: 50px;
+}
+
+.galvanize{
+  height: 60px;
+  width: auto;
+}
+
+.github{
+  height: 75px;
+  width: auto;
+}
+
+.card-content.pink-text{
+  padding: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#theory1, #theory2{
+  text-shadow: 1px 1px black;
 }
 
 /*glow for webkit*/
