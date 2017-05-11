@@ -11,10 +11,22 @@ $(document).ready(function() {
   var results = [];
   $('#results').hide();
 
+  $('#chickenButton').on('click', function() {
+    console.log("chicken clicked");
+    // $('#chickenButton').attr("style", "right:10px;");
+
+    let start = Date.now();
+    let timer = setInterval(function() {
+      let timePassed = Date.now() - start;
+      $('#chickenButton').attr("style", "left:10px;");
+        if (timePassed > 2000) clearInterval(timer);
+      }, 20);
+    });
+
   function extractMethod(array){
     var orderedList = $("<ol>");
     if (array.length === 0){
-      return `Looks like this wasn't uploaded...<br>Please click the link to visit the page directly.`;
+      return `<br>Looks like this wasn't uploaded...<br>Please click the link to visit the page directly.`;
     } else {
       var innerArray = array[0].steps;
       for (let i=0; i<innerArray.length; i++){
@@ -183,13 +195,13 @@ $(document).ready(function() {
 
   }); //closes #searchButton on('click function
 
-  $('#chickenButton').on('click', function(event){
-    console.log("Chicken Caught!");
-    event.preventDefault();
-    $('#results').show();
-    fillResults(chicken);
-
-  }); //closes #chickenButton on('click function
+  // $('#chickenButton').on('click', function(event){
+  //   console.log("Chicken Caught!");
+  //   event.preventDefault();
+  //   $('#results').show();
+  //   fillResults(chicken);
+  //
+  // }); //closes #chickenButton on('click function
 
   var chickenParse = sessionStorage.getItem("chicken");
   var chicken = JSON.parse(chickenParse);

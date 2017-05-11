@@ -5,10 +5,16 @@ body{
   background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 
-img{
-  height: auto;
-  width: 95%;
-  max-height: 203px;
+#chickenButton{
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  transition: left 5s;
+}
+
+.modal .modal-content{
+  position: fixed;
+  top: 10px;
 }
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
@@ -76,16 +82,14 @@ h2{
   height: 30vh
 }
 
+.card-image img{
+  height: auto;
+}
+
 .card span.card-title, .card h2{
   font-family: 'Anton', sans-serif;
   text-shadow: 1px 1px white;
 }
-
-/*.card-content a{
-  font-family: 'Anton', sans-serif;
-  font-size: large;
-  text-shadow: 1px 1px darkslateblue;
-}*/
 
 .card-content .card-title{
   font-size: x-large;
