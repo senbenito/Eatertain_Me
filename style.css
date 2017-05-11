@@ -158,19 +158,19 @@ p.card-title{
 }
 
 .card.small .card-tabs{
-  height: 12vh;
+  height: 10vw;
 }
 
 img.vertical{
-  min-height: 25px;
-  height: 5vh;
-  width: auto;
+  height: auto;
+  width: 4vw;
+  min-width: 25px;
 }
 
 img.square{
   height: auto;
-  width: 4vw;
-  min-width: 60px;
+  width: 3vw;
+  min-width: 40px;
 }
 
 img.horizontal{
