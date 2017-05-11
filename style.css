@@ -9,9 +9,9 @@ body{
   height: auto;
   width: 15vw;
   position: absolute;
-  z-index: 10;
-  right: 0;
-  transition: transform 5s;
+  z-index: 3;
+  right: 0px;
+  bottom: 50px;
 }
 
 .modal .modal-content{
@@ -56,7 +56,7 @@ body{
 
 h1{
   text-align: center;
-  font-size: 7em;
+  font-size: 12vw;
   margin: 20px 0 20px 0;
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -93,17 +93,23 @@ h2{
   text-shadow: 1px 1px white;
 }
 
+.card-title{
+  color: #ee6e73;
+}
+
 .card-content .card-title{
   font-size: x-large;
-  height: 10vh;
+  height: 7vh;
   overflow: hidden;
 }
 
-.card-action{
-  height: 10vh;
+.card-content{
+  height: 60vh;
+  color: white;
 }
 
 .card-action{
+  height: 10vh;
   text-shadow: 1px 1px white;
 }
 
@@ -151,13 +157,6 @@ p.card-title{
   animation: neon4 1.5s ease-in-out infinite alternate;
 }
 
-.card-title{
-  color: #ee6e73;
-}
-
-.card-content{
-  color: white;
-}
 
 .card.small .card-content{
   height: 25vh;

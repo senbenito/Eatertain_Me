@@ -1,6 +1,9 @@
 
 $(document).ready(function() {
   console.log('Ready to go!');
+  window.setTimeout(chickenChase, 3000);
+  window.setTimeout(chickenChase, 16000);
+  $('#results').hide();
   $('.modal').modal();
   $('select').material_select();
   $(".button-collapse").sideNav({
@@ -9,8 +12,21 @@ $(document).ready(function() {
     closeOnClick: true,
     });
   var results = [];
-  $('#results').hide();
-  $('#chickenButton').animate({"right": "+=700px"}, 6000, "easeInBack");
+
+  function chickenChase(){
+    $('#chickenButton').animate({
+      "right": "+=70vw",
+      "top": "-=60vh",
+    }, 6000, "easeInOutElastic", function bounce2(){
+      console.log("chicken bounce 2");
+      $('#chickenButton').animate(
+        {
+          "right": "-=65vw",
+          "top": "+=55vh"
+        }, 6000, "easeInBounce"
+      );
+    });
+  }
 
   $('#chickenButton').on('click', function() {
     console.log("chicken clicked");
