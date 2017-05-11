@@ -24,10 +24,17 @@ body{
 
 .advice{
   font-size: small;
-  color: #fff;}
+  color: #fff;
+}
 
-.header{
+.reference{
+  font-size: medium;
+  color: #ccff90;
+}
+
+.header#index{
   text-align: center;
+  padding-top: 10vh;
 }
 
 #userInterface{
@@ -36,6 +43,7 @@ body{
 
 .hover-glow, h3{
   font-family: 'Monoton', cursive;
+  font-size: 8vw;
   color: #B6FF00;
   -webkit-animation: none;
   -moz-animation: none;
@@ -89,8 +97,8 @@ h2{
 }
 
 .card span.card-title, .card h2{
-  font-family: 'Anton', sans-serif;
-  text-shadow: 1px 1px white;
+  font-family: 'Baloo', sans-serif;
+  text-shadow: 1px 1px black;
 }
 
 .card-title{
@@ -195,7 +203,7 @@ img.horizontal{
 }
 
 .card-content.pink-text{
-  padding: 12px;
+  padding: 4vh;
   font-family: 'Raleway', sans-serif;
 }
 

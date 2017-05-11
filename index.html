@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <style>@import url('https://fonts.googleapis.com/css?family=Anton|Monoton|Raleway');  </style>
+  <style>@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway|Baloo');  </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
   <script src="chicken.js"></script>
   <script src="main.js" defer></script>
@@ -32,7 +32,7 @@
   </ul>
 
   <div class="header row">
-    <header>
+    <header id="index">
       <div class="col s12">
         <h1>Eatertain.Me</h1>
         <p class="flow-text">makes your cooking better.</p>
@@ -85,10 +85,11 @@
         <div class="col m1"></div>
 
         <div class="col s12 center">
-          <a href="#showThis"><p><button id="searchButton" class="waves-effect waves-light btn">Click to find out what's for dinner!</button></p></a>
+          <a href="#searchButton"><p><button id="searchButton" class="waves-effect waves-light btn">Click to find out what's for dinner!</button></p></a>
         </div>
 
       </div><!-- closes row -->
+
       <div id="results" class="row">
         <h2 class="hover-glow center">Here's what we found:</h2>
 
@@ -97,7 +98,7 @@
           <div class="col s12 m4">
               <div id="recipe0card" class="card large grey">
               <div class="card-image">
-                <img id="recipe0img">
+                <img id="recipe0img" class="responsive-img">
               </div>
               <div class="card-content center">
                 <a href="#modal0"><span class="recipe0title card-title" style="color: #ee6e73;"></span></a>
@@ -161,7 +162,7 @@
           </div><!-- closes recipe2card -->
         </div><!-- closes card row1 -->
 
-  <div id="showThis"></div>
+  <div id="showThis" name="showThis"></div>
 
         <div class="row">
 

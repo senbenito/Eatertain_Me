@@ -1,9 +1,9 @@
-
 $(document).ready(function() {
   console.log('Ready to go!');
   window.setTimeout(chickenChase, 3000);
   window.setTimeout(chickenChase, 16000);
   $('#results').hide();
+  $(".navbar-fixed").hide();
   $('.modal').modal();
   $('select').material_select();
   $(".button-collapse").sideNav({
@@ -184,12 +184,13 @@ $(document).ready(function() {
   });
 
   $('#searchButton').on('click', function(event) {
-    event.preventDefault();
+    // event.preventDefault();
     $('#results').show();
     var query = $('#keyword').val();
     console.log(query);
     var cuisine = $("#cuisine").val() || [];
     console.log(cuisine);
+    $(".navbar-fixed").show();
 
     fillResults(chicken);//offline mode
 
