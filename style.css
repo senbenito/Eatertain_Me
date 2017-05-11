@@ -26,15 +26,16 @@ img{
   font-size: medium;
 }
 
-.hover-glow{
+.hover-glow, h3{
   font-family: 'Monoton', cursive;
   color: #B6FF00;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
+  margin-left: 12px;
 }
 
-.hover-glow:hover {
+.hover-glow:hover, h3:hover {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -42,6 +43,7 @@ img{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
+  margin-left: 12px;
 }
 
 h1{
