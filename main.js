@@ -2,6 +2,7 @@ $(document).ready(function() {
   console.log('Ready to go!');
   window.setTimeout(chickenChase, 3000);
   window.setTimeout(chickenChase, 16000);
+  window.setTimeout(chickenChase, 30000);
   $('#results').hide();
   $(".navbar-fixed").hide();
   $('.modal').modal();
@@ -181,6 +182,7 @@ $(document).ready(function() {
     console.log("chicken clicked");
     fillResults(chicken);
     $('#results').show();
+    $(".navbar-fixed").show();
   });
 
   $('#searchButton').on('click', function(event) {
