@@ -97,7 +97,7 @@ $(document).ready(function() {
         switch (data.results[i].cuisines[1]) {
 
           case "irish":
-          cuisinePlaylist[i] = 'Ldf7T6TlV-o?list=PL4lVd8L3ra0GWQkVkiB9iNJo06aXyZoYS';
+          cuisinePlaylist[i] = 'kJCxTgrbB6c?list=RDkJCxTgrbB6c';
           break;
 
           case "eastern european":
@@ -112,7 +112,7 @@ $(document).ready(function() {
         case "mediterranean":
         switch (data.results[i].cuisines[2]) {
           case "french":
-          cuisinePlaylist[i] = 'Q3Kvu6Kgp88?list=RDQ3Kvu6Kgp88';
+          cuisinePlaylist[i] = 'rzy2wZSg5ZM?list=RDrzy2wZSg5ZM';
           break;
 
           default://italian
@@ -133,7 +133,7 @@ $(document).ready(function() {
         break;
 
         case "american":
-        cuisinePlaylist[i] = 'nKI8Mo_v3d4?list=PLlu4hx7GfQgxQQq-5AaDFzn-EVvsQO2se';
+        cuisinePlaylist[i] = 'sjCw3-YTffo?list=RDsjCw3-YTffo';
         break;
 
         case "cajun":
@@ -172,9 +172,9 @@ $(document).ready(function() {
     $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[0]}`);
     $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[1]}`);
     $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[2]}`);
-    $("#youtube-playlist0").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[3]}`);
-    $("#youtube-playlist1").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[4]}`);
-    $("#youtube-playlist2").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[5]}`);
+    $("#youtube-playlist3").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[3]}`);
+    $("#youtube-playlist4").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[4]}`);
+    $("#youtube-playlist5").attr("src", `https://www.youtube.com/embed/${cuisinePlaylist[5]}`);
   }//closes fillResults
 
   $('#chickenButton').on('click', function() {
@@ -192,21 +192,21 @@ $(document).ready(function() {
     console.log(cuisine);
     $(".navbar-fixed").show();
 
-    fillResults(chicken);//offline mode
+    // fillResults(chicken);//offline mode
 
-    // var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=3&offset=0&query=${query}&ranking=1&type=main+course`);
-    //
-    // $xhr.done(function(data) {
-    //   if ($xhr.status !== 200) {
-    //     return;
-    //   }
-    //   console.log(data);
-    //   fillResults(data);
-    // });//closes $xhr.done
-    //
-    // $xhr.fail(function() {
-    //   alert("AJAX failed!");
-    // });//closes $xhr.fail
+    var $xhr = $.getJSON(`https://g-spoonacular-shannon.herokuapp.com/recipes/searchComplex?addRecipeInformation=true&cuisine=${cuisine.toString()}&limitLicense=false&number=6&offset=0&query=${query}&ranking=1&type=main+course`);
+
+    $xhr.done(function(data) {
+      if ($xhr.status !== 200) {
+        return;
+      }
+      console.log(data);
+      fillResults(data);
+    });//closes $xhr.done
+
+    $xhr.fail(function() {
+      alert("AJAX failed!");
+    });//closes $xhr.fail
 
   }); //closes #searchButton on('click function
 
